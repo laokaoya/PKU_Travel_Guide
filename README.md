@@ -19,8 +19,8 @@
 - Design special campus tour activities, including "Yanyuan Ancient Tree Map," "Where Are the Animals in Yanyuan," "Hidden Corners," "Yanyuan’s Unique Stones and Sculptures," and "Campus Canteen Check-ins," and create corresponding maps for these activities.
 ### Test and feedback
 - First Step: Completing internal team evaluations. The benchmark is tourism guides related to Peking University on Xiaohongshu, with a total of 28 articles collected (including visitor information and route options). If more than 70% of our recommended solutions are considered superior to the apps mentioned, we will pass the internal testing phase.
-- Second Step: Releasing a test version on an anonymous campus forum for evaluation by Peking University students and faculty. Collecting opinions and feedback, and encourage them to recommend the app to friends and family visiting Peking University. The internal evaluation will last for two weeks, during which five surveys will be distributed, with a goal of collecting 300 responses.
-→ Third Step: Launching the app on public platforms, making it available for general tourists to try out, and provide feedback channels for continuous improvement.
+- Second Step: Releasing a test version on an anonymous campus forum for evaluation by Peking University students and faculty. Collecting opinions and feedback, and encourage them to recommend the app to friends and family visiting Peking University. The internal evaluation lasts for two weeks, during which five surveys are distributed, collecting about 300 responses.
+- → Third Step: Launching the app on public platforms, making it available for general tourists to try out, and provide feedback channels for continuous improvement.
 
 
 ## Drawbacks and Update Goals
