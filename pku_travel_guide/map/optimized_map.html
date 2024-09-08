@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b3f25dbfcad0b3ab9aa7e6401d2a8aae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b3f25dbfcad0b3ab9aa7e6401d2a8aae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b3f25dbfcad0b3ab9aa7e6401d2a8aae = L.map(
+                "map_b3f25dbfcad0b3ab9aa7e6401d2a8aae",
+                {
+                    center: [39.99063887, 116.3092085],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_13bea2cec2e4fa947543398aa5d222a5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_13bea2cec2e4fa947543398aa5d222a5.addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var circle_marker_456a28460406969b1b41b51513316f46 = L.circleMarker(
+                [39.99063887, 116.3092085],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var circle_marker_3845587c8fdb683e3cb10c57213a3d78 = L.circleMarker(
+                [39.99063887, 116.3092085],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var marker_42efe54a1faddf9f5156efc0090e7a5e = L.marker(
+                [39.99263959, 116.3056633],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_ba67ebd10d051b177cd40aad3c215e34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42efe54a1faddf9f5156efc0090e7a5e.setIcon(icon_ba67ebd10d051b177cd40aad3c215e34);
+        
+    
+        var popup_56620cae559173fd69a197e0b3c6ef00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aa61915eba418c52d199cc451102207 = $(`<div id="html_2aa61915eba418c52d199cc451102207" style="width: 100.0%; height: 100.0%;">博雅塔: 417 次访问</div>`)[0];
+                popup_56620cae559173fd69a197e0b3c6ef00.setContent(html_2aa61915eba418c52d199cc451102207);
+            
+        
+
+        marker_42efe54a1faddf9f5156efc0090e7a5e.bindPopup(popup_56620cae559173fd69a197e0b3c6ef00)
+        ;
+
+        
+    
+    
+            var marker_9be46f166ba4a856397b9e63e76856e4 = L.marker(
+                [39.99263959, 116.3056633],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_02b45929f6d91d4b95d83c7779414f95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9be46f166ba4a856397b9e63e76856e4.setIcon(icon_02b45929f6d91d4b95d83c7779414f95);
+        
+    
+        var popup_a3642a0b2b0e32989c9a14438129baa7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_316e00e4e2de2c563cb2e4d9dcfa496d = $(`<div id="html_316e00e4e2de2c563cb2e4d9dcfa496d" style="width: 100.0%; height: 100.0%;">         <h3 style="font-size:24px;">博雅塔</h3>         <p style="font-size:20px;">博雅塔是北京大学的标志性建筑之一，位于未名湖东南的小丘上，是仿造通州燃灯佛舍利塔、取辽朝密檐砖塔样式建造的。它原是校园供水水塔，其独具匠心的设计构思，乃燕园构建的神来之笔。博雅塔的设计参照了通州的燃灯佛舍利塔，塔共13级，高约37米，井深164尺，喷水高于地面十余尺，喷水量达每小时16000加仑（合60560升）。内部结构中空，有螺旋梯直通塔顶，除基座外全是用钢筋水泥建筑，设计精良。由于当时燕京大学校园内的建筑都是以捐款人的姓氏命名的，这座博雅塔主要是由当时燕京大学哲学系教授博晨光（Lucius Chapin Porter，1880-1958，当时居住在美国）捐资兴建的，所以被命名为“博雅塔”。巍峨的博雅塔和它周围的松柏以及波光荡漾的未名湖构成燕园的一大景观。由于建筑位置的巧妙，在北大内外，梁柱、古树之间，时见它的身影，更增几分秀丽神奇。博雅塔似一位饱经风霜的老人，默默地站在湖畔，纵观着风云变幻，那紧锁的塔门，就像这位老人紧闭的心扉，包含着人生的悠悠岁月。</p>         </div>`)[0];
+                popup_a3642a0b2b0e32989c9a14438129baa7.setContent(html_316e00e4e2de2c563cb2e4d9dcfa496d);
+            
+        
+
+        marker_9be46f166ba4a856397b9e63e76856e4.bindPopup(popup_a3642a0b2b0e32989c9a14438129baa7)
+        ;
+
+        
+    
+    
+            var marker_8e0e7ab6ccb90fc536f0966f6029bcf0 = L.marker(
+                [39.99310702, 116.3022521],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_5ed614c736773c0032d5164aecfc14b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e0e7ab6ccb90fc536f0966f6029bcf0.setIcon(icon_5ed614c736773c0032d5164aecfc14b1);
+        
+    
+        var popup_752894bfa726b367c88f81868f93ece1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_371b3c5efa68b2ed9fe98ccce5600bea = $(`<div id="html_371b3c5efa68b2ed9fe98ccce5600bea" style="width: 100.0%; height: 100.0%;">翻尾石鱼: 385 次访问</div>`)[0];
+                popup_752894bfa726b367c88f81868f93ece1.setContent(html_371b3c5efa68b2ed9fe98ccce5600bea);
+            
+        
+
+        marker_8e0e7ab6ccb90fc536f0966f6029bcf0.bindPopup(popup_752894bfa726b367c88f81868f93ece1)
+        ;
+
+        
+    
+    
+            var marker_f072f7260d3d317cd66ac2576dd7dc45 = L.marker(
+                [39.99310702, 116.3022521],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_6274f45d43f555dd6915dd4003d14c4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f072f7260d3d317cd66ac2576dd7dc45.setIcon(icon_6274f45d43f555dd6915dd4003d14c4b);
+        
+    
+        var popup_1a4e263bbedd3b1c1d5679e5258283a0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4a7e97db49731fccd1702238b489c026 = $(`<div id="html_4a7e97db49731fccd1702238b489c026" style="width: 100.0%; height: 100.0%;">         <h3 style="font-size:24px;">翻尾石鱼</h3>         <p style="font-size:20px;">北京大学未名湖中的翻尾石鱼是一件具有丰富历史背景的文物。它原本是圆明园长春园中“谐奇趣”楼前喷水池的装饰物，由黄褐色细石精雕而成，鱼身长165厘米，高87厘米，造型生动，张口朝天，尾巴翻转，动感十足。这件石刻艺术作品是乾隆十六年（1751年）的遗物，属于西洋石刻艺术。不幸的是，圆明园在19世纪后半期遭受了英法联军和八国联军的两次焚烧与劫掠，导致园内文物大量流失，翻尾石鱼也未能幸免，被变卖。后来，它被朗润园主人载涛购得，并放置于朗润园中。直到1930年，燕京大学（北京大学的前身）的毕业生将其买下，作为礼物赠予母校，翻尾石鱼便在未名湖安家，成为校园内的一大景观。</p>         </div>`)[0];
+                popup_1a4e263bbedd3b1c1d5679e5258283a0.setContent(html_4a7e97db49731fccd1702238b489c026);
+            
+        
+
+        marker_f072f7260d3d317cd66ac2576dd7dc45.bindPopup(popup_1a4e263bbedd3b1c1d5679e5258283a0)
+        ;
+
+        
+    
+    
+            var marker_575fbbd8a32132cce629ac9bf847aacd = L.marker(
+                [39.99262303, 116.3005537],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_c64e32203ec2e17d945fbca4732e5dad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_575fbbd8a32132cce629ac9bf847aacd.setIcon(icon_c64e32203ec2e17d945fbca4732e5dad);
+        
+    
+        var popup_e84e15c8c89441fefc86d3453ed56759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae01c682a96ed90f6f716a3cc235552e = $(`<div id="html_ae01c682a96ed90f6f716a3cc235552e" style="width: 100.0%; height: 100.0%;">档案馆: 420 次访问</div>`)[0];
+                popup_e84e15c8c89441fefc86d3453ed56759.setContent(html_ae01c682a96ed90f6f716a3cc235552e);
+            
+        
+
+        marker_575fbbd8a32132cce629ac9bf847aacd.bindPopup(popup_e84e15c8c89441fefc86d3453ed56759)
+        ;
+
+        
+    
+    
+            var marker_77baa9d73495ae6808185cdfc97551b4 = L.marker(
+                [39.99262303, 116.3005537],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_a3baca0918355364de936a7ff8e579ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_77baa9d73495ae6808185cdfc97551b4.setIcon(icon_a3baca0918355364de936a7ff8e579ba);
+        
+    
+        var popup_ec15722472fe1152595f0f36ad00cf79 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_790947b0a61a83894ab16dc1c1f70455 = $(`<div id="html_790947b0a61a83894ab16dc1c1f70455" style="width: 100.0%; height: 100.0%;">         <h3 style="font-size:24px;">档案馆</h3>         <p style="font-size:20px;">北京大学档案馆是学校档案工作的职能管理部门，同时也是一个科学文化事业机构，负责永久保存和提供利用北京大学的档案。档案馆的前身是1958年设立的文书档案室，后来在1982年扩充为综合档案室，并于1993年更名为北京大学档案馆。1999年，随着北京大学管理体制改革，档案馆成为学校的直属机构。档案馆的馆藏非常丰富，包括与北京大学、国立西南联合大学、国立北平大学、燕京大学以及日伪占领区的“国立北京大学”相关的五个全宗。档案分为管理、学籍、科研、声像、基建、实物等多个门类，记录了北京大学百余年来的教育、科研、服务社会、文化传承等历史发展进程。这些档案不仅具有重要的史料价值和学术价值，也是研究北京大学校史、中国教育史、学术史、革命史、思想史和中共党史的重要学术参考。 </p>         </div>`)[0];
+                popup_ec15722472fe1152595f0f36ad00cf79.setContent(html_790947b0a61a83894ab16dc1c1f70455);
+            
+        
+
+        marker_77baa9d73495ae6808185cdfc97551b4.bindPopup(popup_ec15722472fe1152595f0f36ad00cf79)
+        ;
+
+        
+    
+    
+            var marker_6d495f96a8f25d4816bef614c0d7d71f = L.marker(
+                [39.99343326, 116.3001789],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_69106b895433e5880c56b8022a3392c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d495f96a8f25d4816bef614c0d7d71f.setIcon(icon_69106b895433e5880c56b8022a3392c7);
+        
+    
+        var popup_7fd935e53c9cc0032d9e68ac5da0d7a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c1741f7676929cccb9a38768c3c957 = $(`<div id="html_06c1741f7676929cccb9a38768c3c957" style="width: 100.0%; height: 100.0%;">麒麟（左）: 393 次访问</div>`)[0];
+                popup_7fd935e53c9cc0032d9e68ac5da0d7a7.setContent(html_06c1741f7676929cccb9a38768c3c957);
+            
+        
+
+        marker_6d495f96a8f25d4816bef614c0d7d71f.bindPopup(popup_7fd935e53c9cc0032d9e68ac5da0d7a7)
+        ;
+
+        
+    
+    
+            var marker_3e34cb6b9aeeb2d45cecf0c54ff26708 = L.marker(
+                [39.99343326, 116.3001789],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_b2c3ee1867e348ef270e2e33ce04f34f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e34cb6b9aeeb2d45cecf0c54ff26708.setIcon(icon_b2c3ee1867e348ef270e2e33ce04f34f);
+        
+    
+        var popup_9ef06491ad9c985d517f0cca7693d5b9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_aca2d7d1476adb259b8ff24d62ab7fd2 = $(`<div id="html_aca2d7d1476adb259b8ff24d62ab7fd2" style="width: 100.0%; height: 100.0%;">         <h3 style="font-size:24px;">麒麟（左）</h3>         <p style="font-size:20px;">北京大学校园内的石麒麟是一对珍贵的文物，它们早先安置于圆明园大宫门前，刻成时间不晚于雍正三年（1725年）。在乾隆六年（1741年），修建安佑宫时，这对石麒麟被移至安佑宫前。1925年，它们从圆明园移入北京大学，现在位于办公楼以西的位置。石麒麟高174厘米，须弥座高98厘米，正面宽141厘米，侧面宽195厘米，刻工细腻，巧夺天工。每尊石麒麟与其基座是由两块石头刻成后拼接而成的，接缝非常隐蔽，不易被发现。麒麟在中国传统文化中被视为“圣兽”，是吉祥和崇高的化身，常被置于宫门之前作为装饰和守护。 这对石麒麟不仅是校园内的重要文物，也是中国传统文化的象征，承载着丰富的历史和艺术价值。它们见证了北京大学悠久的历史和深厚的文化底蕴，是校园内不可或缺的一部分。</p>         </div>`)[0];
+                popup_9ef06491ad9c985d517f0cca7693d5b9.setContent(html_aca2d7d1476adb259b8ff24d62ab7fd2);
+            
+        
+
+        marker_3e34cb6b9aeeb2d45cecf0c54ff26708.bindPopup(popup_9ef06491ad9c985d517f0cca7693d5b9)
+        ;
+
+        
+    
+    
+            var marker_a7b180178d3d40c6d0a587a59a7e7568 = L.marker(
+                [39.99341225, 116.3016173],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_d7a29dd85254b6888aba216e06f3327f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7b180178d3d40c6d0a587a59a7e7568.setIcon(icon_d7a29dd85254b6888aba216e06f3327f);
+        
+    
+        var popup_80f5465840ca97746d3ad950586ea509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6038f7b631d97caef505858ff79e2c80 = $(`<div id="html_6038f7b631d97caef505858ff79e2c80" style="width: 100.0%; height: 100.0%;">鹊桥: 382 次访问</div>`)[0];
+                popup_80f5465840ca97746d3ad950586ea509.setContent(html_6038f7b631d97caef505858ff79e2c80);
+            
+        
+
+        marker_a7b180178d3d40c6d0a587a59a7e7568.bindPopup(popup_80f5465840ca97746d3ad950586ea509)
+        ;
+
+        
+    
+    
+            var marker_43aa69090a57768a3b4a72a8e737f2c5 = L.marker(
+                [39.99341225, 116.3016173],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_da33014c7f1ac8dc08c4fdf5170b80dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43aa69090a57768a3b4a72a8e737f2c5.setIcon(icon_da33014c7f1ac8dc08c4fdf5170b80dc);
+        
+    
+        var popup_223887bc18ff4efc249ff15ffdbbcf5f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b9220f93549fd6bd641c089057d65c1f = $(`<div id="html_b9220f93549fd6bd641c089057d65c1f" style="width: 100.0%; height: 100.0%;">         <h3 style="font-size:24px;">鹊桥</h3>         <p style="font-size:20px;">鹊桥，一个充满诗意的名字，它不仅仅是一座连接两岸的桥梁，更是文化与传说的载体。在北京大学的校园中，鹊桥以其独特的设计和寓意，成为了校园内一处引人入胜的景点。它不仅方便了师生的通行，更以其背后关于爱情与忠贞的传说，为校园增添了一份浪漫与神秘。</p>         </div>`)[0];
+                popup_223887bc18ff4efc249ff15ffdbbcf5f.setContent(html_b9220f93549fd6bd641c089057d65c1f);
+            
+        
+
+        marker_43aa69090a57768a3b4a72a8e737f2c5.bindPopup(popup_223887bc18ff4efc249ff15ffdbbcf5f)
+        ;
+
+        
+    
+    
+            var marker_c9fb698d5ad0814b5dd171c9771471c1 = L.marker(
+                [39.99228636, 116.3009553],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_d56ec81534d315c07014f02aa8b66e50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9fb698d5ad0814b5dd171c9771471c1.setIcon(icon_d56ec81534d315c07014f02aa8b66e50);
+        
+    
+        var popup_c9fbe8c2af8de04764a07e73be6c770d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64b372b70106645b6442e8af1592ae33 = $(`<div id="html_64b372b70106645b6442e8af1592ae33" style="width: 100.0%; height: 100.0%;">北京城乡生态梯度研究平台: 403 次访问</div>`)[0];
+                popup_c9fbe8c2af8de04764a07e73be6c770d.setContent(html_64b372b70106645b6442e8af1592ae33);
+            
+        
+
+        marker_c9fb698d5ad0814b5dd171c9771471c1.bindPopup(popup_c9fbe8c2af8de04764a07e73be6c770d)
+        ;
+
+        
+    
+    
+            var marker_f65e629c3b2a9aca9efd493fdfc89345 = L.marker(
+                [39.99228636, 116.3009553],
+                {}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            var icon_ac6c523a0b7f0066f09e162baf9690c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f65e629c3b2a9aca9efd493fdfc89345.setIcon(icon_ac6c523a0b7f0066f09e162baf9690c6);
+        
+    
+        var popup_30cd03ea8a40e18a63242a72da7bea7b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4d54b18df63f85df7eb9e52d1022215f = $(`<div id="html_4d54b18df63f85df7eb9e52d1022215f" style="width: 100.0%; height: 100.0%;">         <h3 style="font-size:24px;">北京城乡生态梯度研究平台</h3>         <p style="font-size:20px;">北京城乡生态梯度研究平台是一个专注于城市与区域生态研究的科研平台，它依托于北京大学城市与环境学院，由赵淑清团队负责。该平台致力于研究城市化对植被生长的影响，并提出了评估城市化对植被生长影响的理论框架体系。研究团队通过应用这一框架体系，对中国的32个大型城市进行了研究，发现大约85%的城市植被显示出城市环境对其生长有促进作用，这种间接促进作用可以抵消约40%的城市化对植被替代的直接负面影响。这些研究成果不仅在学术上具有重要意义，也为城市规划和生态环境管理提供了科学依据。</p>         </div>`)[0];
+                popup_30cd03ea8a40e18a63242a72da7bea7b.setContent(html_4d54b18df63f85df7eb9e52d1022215f);
+            
+        
+
+        marker_f65e629c3b2a9aca9efd493fdfc89345.bindPopup(popup_30cd03ea8a40e18a63242a72da7bea7b)
+        ;
+
+        
+    
+    
+            var poly_line_77bb780e553b421e3261c8fc0bc41c85 = L.polyline(
+                [[39.9907995, 116.3093076], [39.9907899, 116.3090649], [39.990749, 116.307851], [39.9912388, 116.3078209], [39.9916982, 116.3077663], [39.9916729, 116.3071531], [39.9916188, 116.3063146], [39.9918029, 116.3060249], [39.9919705, 116.3059375], [39.9920871, 116.3058675], [39.9924092, 116.3056511], [39.9927438, 116.3054488], [39.9927438, 116.3054488], [39.992792, 116.3042594], [39.992568, 116.3035722], [39.9925504, 116.3033865], [39.9928952, 116.3023585], [39.9928952, 116.3023585], [39.9933198, 116.3014865], [39.9933198, 116.3014865], [39.9932778, 116.3006773], [39.9928621, 116.3006002], [39.9928621, 116.3006002], [39.9928439, 116.3003113], [39.9930371, 116.3002032], [39.993292, 116.3001454], [39.993292, 116.3001454], [39.9930371, 116.3002032], [39.9928439, 116.3003113], [39.9927282, 116.3001947], [39.992616, 116.3001954], [39.9924657, 116.3001997], [39.9920485, 116.3008391], [39.9921463, 116.3009128], [39.9921463, 116.3009128], [39.9919871, 116.3011092], [39.9918729, 116.3016117], [39.9918699, 116.3024169], [39.991816, 116.3028495], [39.9917813, 116.3029449], [39.9917798, 116.3047631], [39.9918029, 116.3060249], [39.9916188, 116.3063146], [39.9916729, 116.3071531], [39.9916982, 116.3077663], [39.9912388, 116.3078209], [39.990749, 116.307851], [39.9907899, 116.3090649], [39.9907995, 116.3093076]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b3f25dbfcad0b3ab9aa7e6401d2a8aae);
+        
+    
+            poly_line_77bb780e553b421e3261c8fc0bc41c85.setText(
+                "     \u2192     ",
+                {"attributes": {"fill": "red", "font-size": "32", "font-weight": "bold"}, "below": false, "center": false, "offset": 10, "orientation": 0, "repeat": true}
+            );
+        
+</script>
+</html>

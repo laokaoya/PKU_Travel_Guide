@@ -1,0 +1,3072 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_915d7c7bd4183d850316093d3825b344 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_915d7c7bd4183d850316093d3825b344" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_915d7c7bd4183d850316093d3825b344 = L.map(
+                "map_915d7c7bd4183d850316093d3825b344",
+                {
+                    center: [39.9922879551923, 116.30306373269231],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fcfc6107db253c9e5ac5502fe2ef6236 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fcfc6107db253c9e5ac5502fe2ef6236.addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var marker_07b0a863d08b9b69c44a6fedd0a5b46d = L.marker(
+                [39.99152297, 116.3055725],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_0413a0c0940fbd00ce6971d59978eb33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_07b0a863d08b9b69c44a6fedd0a5b46d.setIcon(icon_0413a0c0940fbd00ce6971d59978eb33);
+        
+    
+        var popup_50662a0abfbc3f3216927f908d9a67d5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_74d0b78538691a54db3bb73234cb3544 = $(`<div id="html_74d0b78538691a54db3bb73234cb3544" style="width: 100.0%; height: 100.0%;">标本馆</div>`)[0];
+                popup_50662a0abfbc3f3216927f908d9a67d5.setContent(html_74d0b78538691a54db3bb73234cb3544);
+            
+        
+
+        marker_07b0a863d08b9b69c44a6fedd0a5b46d.bindPopup(popup_50662a0abfbc3f3216927f908d9a67d5)
+        ;
+
+        
+    
+    
+            var marker_dabcb42692598b5bbd9f194fc8ca0b7c = L.marker(
+                [39.99413973, 116.2997974],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c72b6c0cabefafbc58d9fa4cf04aa291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dabcb42692598b5bbd9f194fc8ca0b7c.setIcon(icon_c72b6c0cabefafbc58d9fa4cf04aa291);
+        
+    
+        var popup_2f458e23daeca4c7d78909348adc1d9f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3614f3bc93de281f99d891d1ca9c8455 = $(`<div id="html_3614f3bc93de281f99d891d1ca9c8455" style="width: 100.0%; height: 100.0%;">赛克勒考古艺术博物馆</div>`)[0];
+                popup_2f458e23daeca4c7d78909348adc1d9f.setContent(html_3614f3bc93de281f99d891d1ca9c8455);
+            
+        
+
+        marker_dabcb42692598b5bbd9f194fc8ca0b7c.bindPopup(popup_2f458e23daeca4c7d78909348adc1d9f)
+        ;
+
+        
+    
+    
+            var marker_dff7c8f407b6d5cf5d1e99f16067dafc = L.marker(
+                [39.99212602, 116.2998177],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_20d613171d0b35e145f36dd8d953b4a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dff7c8f407b6d5cf5d1e99f16067dafc.setIcon(icon_20d613171d0b35e145f36dd8d953b4a3);
+        
+    
+        var popup_ccabe76713598314d51ed356a36cf62f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e5e3a2aadd3afdf92e4f5f9445906316 = $(`<div id="html_e5e3a2aadd3afdf92e4f5f9445906316" style="width: 100.0%; height: 100.0%;">校史馆（文创商店）</div>`)[0];
+                popup_ccabe76713598314d51ed356a36cf62f.setContent(html_e5e3a2aadd3afdf92e4f5f9445906316);
+            
+        
+
+        marker_dff7c8f407b6d5cf5d1e99f16067dafc.bindPopup(popup_ccabe76713598314d51ed356a36cf62f)
+        ;
+
+        
+    
+    
+            var marker_dc287083181a3aefcb06555c52bf2800 = L.marker(
+                [39.98649777, 116.3094499],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a0723a58aa1ca27f68fe954fe2fd6aa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dc287083181a3aefcb06555c52bf2800.setIcon(icon_a0723a58aa1ca27f68fe954fe2fd6aa7);
+        
+    
+        var popup_74f74e1560be047a29a3e45c673e958d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8fe0f70a8cb88c6b764a0c3d4eb23cc3 = $(`<div id="html_8fe0f70a8cb88c6b764a0c3d4eb23cc3" style="width: 100.0%; height: 100.0%;">地质博物馆</div>`)[0];
+                popup_74f74e1560be047a29a3e45c673e958d.setContent(html_8fe0f70a8cb88c6b764a0c3d4eb23cc3);
+            
+        
+
+        marker_dc287083181a3aefcb06555c52bf2800.bindPopup(popup_74f74e1560be047a29a3e45c673e958d)
+        ;
+
+        
+    
+    
+            var marker_8a7cd84d74e21c86216a6e8f5bbccadf = L.marker(
+                [39.99280801, 116.3016927],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_4260d3bab3e03c883ea94d89b6bdfa04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a7cd84d74e21c86216a6e8f5bbccadf.setIcon(icon_4260d3bab3e03c883ea94d89b6bdfa04);
+        
+    
+        var popup_5efc06ada2af20016b009780ae797410 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9465170e304b2f247daf46cdc93cc6cf = $(`<div id="html_9465170e304b2f247daf46cdc93cc6cf" style="width: 100.0%; height: 100.0%;">乾隆诗碑</div>`)[0];
+                popup_5efc06ada2af20016b009780ae797410.setContent(html_9465170e304b2f247daf46cdc93cc6cf);
+            
+        
+
+        marker_8a7cd84d74e21c86216a6e8f5bbccadf.bindPopup(popup_5efc06ada2af20016b009780ae797410)
+        ;
+
+        
+    
+    
+            var marker_8c126c2565b43f6bb8b3d13617af44bf = L.marker(
+                [39.99295117, 116.3020754],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_027566aa806e5a7f9f1a02d1eca8933c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c126c2565b43f6bb8b3d13617af44bf.setIcon(icon_027566aa806e5a7f9f1a02d1eca8933c);
+        
+    
+        var popup_f9c30aba01088ff0e27db361bdf9c292 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b4faa87c71787619c95497a45cd59e74 = $(`<div id="html_b4faa87c71787619c95497a45cd59e74" style="width: 100.0%; height: 100.0%;">石雕五供</div>`)[0];
+                popup_f9c30aba01088ff0e27db361bdf9c292.setContent(html_b4faa87c71787619c95497a45cd59e74);
+            
+        
+
+        marker_8c126c2565b43f6bb8b3d13617af44bf.bindPopup(popup_f9c30aba01088ff0e27db361bdf9c292)
+        ;
+
+        
+    
+    
+            var marker_ab181af4ddbc7d79e5a64de29767fea9 = L.marker(
+                [39.99310702, 116.3022521],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_fbd830d102bfb47d9448b8c4ba4e1484 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab181af4ddbc7d79e5a64de29767fea9.setIcon(icon_fbd830d102bfb47d9448b8c4ba4e1484);
+        
+    
+        var popup_f27da6d6f3484b982b48f706a5a9821e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9307f9d8725ac362c829ab3f773b49c4 = $(`<div id="html_9307f9d8725ac362c829ab3f773b49c4" style="width: 100.0%; height: 100.0%;">翻尾石鱼</div>`)[0];
+                popup_f27da6d6f3484b982b48f706a5a9821e.setContent(html_9307f9d8725ac362c829ab3f773b49c4);
+            
+        
+
+        marker_ab181af4ddbc7d79e5a64de29767fea9.bindPopup(popup_f27da6d6f3484b982b48f706a5a9821e)
+        ;
+
+        
+    
+    
+            var marker_68723e833e34c58449294a46f8c7e91e = L.marker(
+                [39.99338392, 116.3013701],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_6559beb1bf4c604c6858ac5cfac8bf8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68723e833e34c58449294a46f8c7e91e.setIcon(icon_6559beb1bf4c604c6858ac5cfac8bf8b);
+        
+    
+        var popup_c956ac6c82fe8154999337d839ebb0f5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6f4a5a9b70e327ae681e86f6749b641b = $(`<div id="html_6f4a5a9b70e327ae681e86f6749b641b" style="width: 100.0%; height: 100.0%;">抗日战争联络点</div>`)[0];
+                popup_c956ac6c82fe8154999337d839ebb0f5.setContent(html_6f4a5a9b70e327ae681e86f6749b641b);
+            
+        
+
+        marker_68723e833e34c58449294a46f8c7e91e.bindPopup(popup_c956ac6c82fe8154999337d839ebb0f5)
+        ;
+
+        
+    
+    
+            var marker_4e6513c9b9301ee19385d9c2b7bbb67e = L.marker(
+                [39.99255816, 116.3029641],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_d540c002a144b042cab0f8cc8618308a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4e6513c9b9301ee19385d9c2b7bbb67e.setIcon(icon_d540c002a144b042cab0f8cc8618308a);
+        
+    
+        var popup_41452435310424d6e0ed86b15bff45f4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_96434207b73eb074d61ee8b4c9ff2865 = $(`<div id="html_96434207b73eb074d61ee8b4c9ff2865" style="width: 100.0%; height: 100.0%;">未名湖燕园建筑碑</div>`)[0];
+                popup_41452435310424d6e0ed86b15bff45f4.setContent(html_96434207b73eb074d61ee8b4c9ff2865);
+            
+        
+
+        marker_4e6513c9b9301ee19385d9c2b7bbb67e.bindPopup(popup_41452435310424d6e0ed86b15bff45f4)
+        ;
+
+        
+    
+    
+            var marker_fcb3503fceb4d6381bed5b36e3dd79fd = L.marker(
+                [39.99275515, 116.3042595],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_d2793d937a63ea02588f971fcbe53e80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fcb3503fceb4d6381bed5b36e3dd79fd.setIcon(icon_d2793d937a63ea02588f971fcbe53e80);
+        
+    
+        var popup_77a0e27e05fa60700afda9319511ce96 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_00de5848988175c65b9837858aca2260 = $(`<div id="html_00de5848988175c65b9837858aca2260" style="width: 100.0%; height: 100.0%;">慈济寺山门</div>`)[0];
+                popup_77a0e27e05fa60700afda9319511ce96.setContent(html_00de5848988175c65b9837858aca2260);
+            
+        
+
+        marker_fcb3503fceb4d6381bed5b36e3dd79fd.bindPopup(popup_77a0e27e05fa60700afda9319511ce96)
+        ;
+
+        
+    
+    
+            var marker_bcacdfd3109213ef118af6d5a9edc78e = L.marker(
+                [39.99263959, 116.3056633],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a0ca4aefe2070352a02d229b75032085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bcacdfd3109213ef118af6d5a9edc78e.setIcon(icon_a0ca4aefe2070352a02d229b75032085);
+        
+    
+        var popup_588b2b391a9928cae2e05924290951e4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b7cc07189e7c58c558aa9b1e5b5ce863 = $(`<div id="html_b7cc07189e7c58c558aa9b1e5b5ce863" style="width: 100.0%; height: 100.0%;">博雅塔</div>`)[0];
+                popup_588b2b391a9928cae2e05924290951e4.setContent(html_b7cc07189e7c58c558aa9b1e5b5ce863);
+            
+        
+
+        marker_bcacdfd3109213ef118af6d5a9edc78e.bindPopup(popup_588b2b391a9928cae2e05924290951e4)
+        ;
+
+        
+    
+    
+            var marker_b4a4e6629e2b7a069c26490a195615ac = L.marker(
+                [39.99401659, 116.3082928],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_832ca7de39839dd0403cd84072937e36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b4a4e6629e2b7a069c26490a195615ac.setIcon(icon_832ca7de39839dd0403cd84072937e36);
+        
+    
+        var popup_6790869875799257c9a8b300216bb061 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9d53cc3e8e8c6f760a90e8770a906a67 = $(`<div id="html_9d53cc3e8e8c6f760a90e8770a906a67" style="width: 100.0%; height: 100.0%;">蒋家胡同四合院</div>`)[0];
+                popup_6790869875799257c9a8b300216bb061.setContent(html_9d53cc3e8e8c6f760a90e8770a906a67);
+            
+        
+
+        marker_b4a4e6629e2b7a069c26490a195615ac.bindPopup(popup_6790869875799257c9a8b300216bb061)
+        ;
+
+        
+    
+    
+            var marker_486fbc95fc657314455a0683a8585204 = L.marker(
+                [39.99078485, 116.3023888],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_0d0ce49b849a91f10b49ef043a8bbbe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_486fbc95fc657314455a0683a8585204.setIcon(icon_0d0ce49b849a91f10b49ef043a8bbbe0);
+        
+    
+        var popup_8fbe80f433ee1d4838b269e440957282 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3c228fd8bb0821c26c3f003ed1e3f7f8 = $(`<div id="html_3c228fd8bb0821c26c3f003ed1e3f7f8" style="width: 100.0%; height: 100.0%;">石像生</div>`)[0];
+                popup_8fbe80f433ee1d4838b269e440957282.setContent(html_3c228fd8bb0821c26c3f003ed1e3f7f8);
+            
+        
+
+        marker_486fbc95fc657314455a0683a8585204.bindPopup(popup_8fbe80f433ee1d4838b269e440957282)
+        ;
+
+        
+    
+    
+            var marker_cff17be716120ec33ca49c2f30e61fb4 = L.marker(
+                [39.99109309, 116.3023821],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_7bb2c473895f69be2a1d72f0e503966f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cff17be716120ec33ca49c2f30e61fb4.setIcon(icon_7bb2c473895f69be2a1d72f0e503966f);
+        
+    
+        var popup_27cb8ea0bfd406922e4a25b3f833aefa = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d1b43fcb056f3845a072f7b6652d150c = $(`<div id="html_d1b43fcb056f3845a072f7b6652d150c" style="width: 100.0%; height: 100.0%;">杭爱碑（右）</div>`)[0];
+                popup_27cb8ea0bfd406922e4a25b3f833aefa.setContent(html_d1b43fcb056f3845a072f7b6652d150c);
+            
+        
+
+        marker_cff17be716120ec33ca49c2f30e61fb4.bindPopup(popup_27cb8ea0bfd406922e4a25b3f833aefa)
+        ;
+
+        
+    
+    
+            var marker_e15b8ce5d86e23d9e0880e99bbcb6d29 = L.marker(
+                [39.99101094, 116.3017731],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_0a9b5500f402bcae53be0751c48573e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e15b8ce5d86e23d9e0880e99bbcb6d29.setIcon(icon_0a9b5500f402bcae53be0751c48573e0);
+        
+    
+        var popup_5f745afa4f371fdf8974860fc2d6511c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b15c6cb07a73b191999dcba596a99bff = $(`<div id="html_b15c6cb07a73b191999dcba596a99bff" style="width: 100.0%; height: 100.0%;">杭爱碑（左）</div>`)[0];
+                popup_5f745afa4f371fdf8974860fc2d6511c.setContent(html_b15c6cb07a73b191999dcba596a99bff);
+            
+        
+
+        marker_e15b8ce5d86e23d9e0880e99bbcb6d29.bindPopup(popup_5f745afa4f371fdf8974860fc2d6511c)
+        ;
+
+        
+    
+    
+            var marker_9147dde2ae447ced51a1ae9d5fdfed4b = L.marker(
+                [39.99219459, 116.3023111],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c93cd91bb2983e087ae152f6278b9314 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9147dde2ae447ced51a1ae9d5fdfed4b.setIcon(icon_c93cd91bb2983e087ae152f6278b9314);
+        
+    
+        var popup_e4b4407ba985671338ee68e5f304dac0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7254e504731c9f783ffad299b314b0b5 = $(`<div id="html_7254e504731c9f783ffad299b314b0b5" style="width: 100.0%; height: 100.0%;">梅石碑</div>`)[0];
+                popup_e4b4407ba985671338ee68e5f304dac0.setContent(html_7254e504731c9f783ffad299b314b0b5);
+            
+        
+
+        marker_9147dde2ae447ced51a1ae9d5fdfed4b.bindPopup(popup_e4b4407ba985671338ee68e5f304dac0)
+        ;
+
+        
+    
+    
+            var marker_3eab6d6ce2e02b2788c866af150bc3b7 = L.marker(
+                [39.99262303, 116.3005537],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_110db5b29ca9414558f65d437432e937 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3eab6d6ce2e02b2788c866af150bc3b7.setIcon(icon_110db5b29ca9414558f65d437432e937);
+        
+    
+        var popup_372316dafa7dab45771fb22cd7ef4686 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5ebf101e321c52b187ad5e02f69a9789 = $(`<div id="html_5ebf101e321c52b187ad5e02f69a9789" style="width: 100.0%; height: 100.0%;">档案馆</div>`)[0];
+                popup_372316dafa7dab45771fb22cd7ef4686.setContent(html_5ebf101e321c52b187ad5e02f69a9789);
+            
+        
+
+        marker_3eab6d6ce2e02b2788c866af150bc3b7.bindPopup(popup_372316dafa7dab45771fb22cd7ef4686)
+        ;
+
+        
+    
+    
+            var marker_7d25a15ab7091873cdb86303098efc3c = L.marker(
+                [39.99309338, 116.3018371],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_ffe85ce56540e184c0a84bb045f062d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d25a15ab7091873cdb86303098efc3c.setIcon(icon_ffe85ce56540e184c0a84bb045f062d0);
+        
+    
+        var popup_dc7c0fd196cd4480c91d83d6205fb44d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_93b3afb63172e98ed28dcb0dbc0b6510 = $(`<div id="html_93b3afb63172e98ed28dcb0dbc0b6510" style="width: 100.0%; height: 100.0%;">钟亭和铜钟</div>`)[0];
+                popup_dc7c0fd196cd4480c91d83d6205fb44d.setContent(html_93b3afb63172e98ed28dcb0dbc0b6510);
+            
+        
+
+        marker_7d25a15ab7091873cdb86303098efc3c.bindPopup(popup_dc7c0fd196cd4480c91d83d6205fb44d)
+        ;
+
+        
+    
+    
+            var marker_c23d1c7547d0cec2006ac68150048639 = L.marker(
+                [39.99345421, 116.3034457],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_9198c05e6ffede0cc773b26443c65e75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c23d1c7547d0cec2006ac68150048639.setIcon(icon_9198c05e6ffede0cc773b26443c65e75);
+        
+    
+        var popup_5307a3eacd1b0021531a9962d1a2a2b1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d8d20e924c5ba997dc7541dc399f4dd2 = $(`<div id="html_d8d20e924c5ba997dc7541dc399f4dd2" style="width: 100.0%; height: 100.0%;">鲁斯亭</div>`)[0];
+                popup_5307a3eacd1b0021531a9962d1a2a2b1.setContent(html_d8d20e924c5ba997dc7541dc399f4dd2);
+            
+        
+
+        marker_c23d1c7547d0cec2006ac68150048639.bindPopup(popup_5307a3eacd1b0021531a9962d1a2a2b1)
+        ;
+
+        
+    
+    
+            var marker_669bfb2ce9fb31e30ec4ceb7086892ec = L.marker(
+                [39.99358391, 116.3038753],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_3eec525fc08d70b403e7eb8685bce1e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_669bfb2ce9fb31e30ec4ceb7086892ec.setIcon(icon_3eec525fc08d70b403e7eb8685bce1e3);
+        
+    
+        var popup_7905711cccaccc8b55a82c3d9cd9c2e2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_453002ebba4aa37f2c431e21f5a9b9c9 = $(`<div id="html_453002ebba4aa37f2c431e21f5a9b9c9" style="width: 100.0%; height: 100.0%;">石舫</div>`)[0];
+                popup_7905711cccaccc8b55a82c3d9cd9c2e2.setContent(html_453002ebba4aa37f2c431e21f5a9b9c9);
+            
+        
+
+        marker_669bfb2ce9fb31e30ec4ceb7086892ec.bindPopup(popup_7905711cccaccc8b55a82c3d9cd9c2e2)
+        ;
+
+        
+    
+    
+            var marker_f852f146fcc40ee349b3ff52392c97a4 = L.marker(
+                [39.99496041, 116.3004986],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_e3c0aac16110179233545ea841615e09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f852f146fcc40ee349b3ff52392c97a4.setIcon(icon_e3c0aac16110179233545ea841615e09);
+        
+    
+        var popup_0a9f4f310517b614bf5a0c1d970065df = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f5bdbaf851c8908ef5f3406dcb562adc = $(`<div id="html_f5bdbaf851c8908ef5f3406dcb562adc" style="width: 100.0%; height: 100.0%;">校景亭</div>`)[0];
+                popup_0a9f4f310517b614bf5a0c1d970065df.setContent(html_f5bdbaf851c8908ef5f3406dcb562adc);
+            
+        
+
+        marker_f852f146fcc40ee349b3ff52392c97a4.bindPopup(popup_0a9f4f310517b614bf5a0c1d970065df)
+        ;
+
+        
+    
+    
+            var marker_ca4df6393863dc062683aa0be492858b = L.marker(
+                [39.99518437, 116.3010887],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_9b4452d37f085f66aee2370879905027 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca4df6393863dc062683aa0be492858b.setIcon(icon_9b4452d37f085f66aee2370879905027);
+        
+    
+        var popup_354f257760f1364542bd8de8331d2e60 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5ea62c84a7e9fa54050c771812d23afc = $(`<div id="html_5ea62c84a7e9fa54050c771812d23afc" style="width: 100.0%; height: 100.0%;">“柳浪闻莺”石牌坊</div>`)[0];
+                popup_354f257760f1364542bd8de8331d2e60.setContent(html_5ea62c84a7e9fa54050c771812d23afc);
+            
+        
+
+        marker_ca4df6393863dc062683aa0be492858b.bindPopup(popup_354f257760f1364542bd8de8331d2e60)
+        ;
+
+        
+    
+    
+            var marker_36618dde473df60bf85aeb537219564f = L.marker(
+                [39.995513, 116.3011583],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_502e111464a9bdeeb41ad54b8ab89d26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36618dde473df60bf85aeb537219564f.setIcon(icon_502e111464a9bdeeb41ad54b8ab89d26);
+        
+    
+        var popup_722859b26d1f8a9a5a18b1bf261f90f5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_66a69644765b144073c702d9885e66b8 = $(`<div id="html_66a69644765b144073c702d9885e66b8" style="width: 100.0%; height: 100.0%;">清代散落石构件</div>`)[0];
+                popup_722859b26d1f8a9a5a18b1bf261f90f5.setContent(html_66a69644765b144073c702d9885e66b8);
+            
+        
+
+        marker_36618dde473df60bf85aeb537219564f.bindPopup(popup_722859b26d1f8a9a5a18b1bf261f90f5)
+        ;
+
+        
+    
+    
+            var marker_f21285f72bb81206acd74bd4aec12d9d = L.marker(
+                [39.993223, 116.3005657],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c783e55b919409dbc6bb4b1990ac13e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f21285f72bb81206acd74bd4aec12d9d.setIcon(icon_c783e55b919409dbc6bb4b1990ac13e6);
+        
+    
+        var popup_53cabd52b111ed50d8d79c97d4ae8e4b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4a0f4495838fbf462d16936b8a6d0dbb = $(`<div id="html_4a0f4495838fbf462d16936b8a6d0dbb" style="width: 100.0%; height: 100.0%;">办公楼</div>`)[0];
+                popup_53cabd52b111ed50d8d79c97d4ae8e4b.setContent(html_4a0f4495838fbf462d16936b8a6d0dbb);
+            
+        
+
+        marker_f21285f72bb81206acd74bd4aec12d9d.bindPopup(popup_53cabd52b111ed50d8d79c97d4ae8e4b)
+        ;
+
+        
+    
+    
+            var marker_c1e55cdc979a5720389053cb5dca1bd6 = L.marker(
+                [39.99548066, 116.2984789],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_5beabd4fed3a63a8e9a28789e532fc05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1e55cdc979a5720389053cb5dca1bd6.setIcon(icon_5beabd4fed3a63a8e9a28789e532fc05);
+        
+    
+        var popup_a1f82f5dd799714ce21ba9fcd5438c34 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_83da5878043de4cb5bfe5384d8fcea2f = $(`<div id="html_83da5878043de4cb5bfe5384d8fcea2f" style="width: 100.0%; height: 100.0%;">半月台乾隆诗碑</div>`)[0];
+                popup_a1f82f5dd799714ce21ba9fcd5438c34.setContent(html_83da5878043de4cb5bfe5384d8fcea2f);
+            
+        
+
+        marker_c1e55cdc979a5720389053cb5dca1bd6.bindPopup(popup_a1f82f5dd799714ce21ba9fcd5438c34)
+        ;
+
+        
+    
+    
+            var marker_f8666dfaec7551d64a354589f92bf0e7 = L.marker(
+                [39.99399465, 116.2993356],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_260ab93faeb73abe4e2c7c45bf737cc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8666dfaec7551d64a354589f92bf0e7.setIcon(icon_260ab93faeb73abe4e2c7c45bf737cc8);
+        
+    
+        var popup_3b6dba11dd0ab98c90c515469d12299c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4dcf12264305977091802c0ec256c20a = $(`<div id="html_4dcf12264305977091802c0ec256c20a" style="width: 100.0%; height: 100.0%;">鸣鹤园</div>`)[0];
+                popup_3b6dba11dd0ab98c90c515469d12299c.setContent(html_4dcf12264305977091802c0ec256c20a);
+            
+        
+
+        marker_f8666dfaec7551d64a354589f92bf0e7.bindPopup(popup_3b6dba11dd0ab98c90c515469d12299c)
+        ;
+
+        
+    
+    
+            var marker_37595728550a2b9f7b87ccf621a3abc3 = L.marker(
+                [39.99406567, 116.2998509],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_f39806c12026c1d494b0b902e83215ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37595728550a2b9f7b87ccf621a3abc3.setIcon(icon_f39806c12026c1d494b0b902e83215ca);
+        
+    
+        var popup_d8a58ca96d5dce18e2db3e6100a0c8b2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4849d953810931c99212e6f07b5aed40 = $(`<div id="html_4849d953810931c99212e6f07b5aed40" style="width: 100.0%; height: 100.0%;">日晷</div>`)[0];
+                popup_d8a58ca96d5dce18e2db3e6100a0c8b2.setContent(html_4849d953810931c99212e6f07b5aed40);
+            
+        
+
+        marker_37595728550a2b9f7b87ccf621a3abc3.bindPopup(popup_d8a58ca96d5dce18e2db3e6100a0c8b2)
+        ;
+
+        
+    
+    
+            var marker_6f00d4b68a15cc1ce9954eda2fab18fa = L.marker(
+                [39.99266841, 116.2986692],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_41d0b3d8ba2e6f9cfab4d0bbcd30fcd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f00d4b68a15cc1ce9954eda2fab18fa.setIcon(icon_41d0b3d8ba2e6f9cfab4d0bbcd30fcd8);
+        
+    
+        var popup_7dd031996442f20129163ef0e678eb2e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4bee4e6a7625a2eb5f0d4ff3259a09ba = $(`<div id="html_4bee4e6a7625a2eb5f0d4ff3259a09ba" style="width: 100.0%; height: 100.0%;">海晏堂引水槽</div>`)[0];
+                popup_7dd031996442f20129163ef0e678eb2e.setContent(html_4bee4e6a7625a2eb5f0d4ff3259a09ba);
+            
+        
+
+        marker_6f00d4b68a15cc1ce9954eda2fab18fa.bindPopup(popup_7dd031996442f20129163ef0e678eb2e)
+        ;
+
+        
+    
+    
+            var marker_efc1fa1111e5f31638c14322c58039e8 = L.marker(
+                [39.99200284, 116.3003463],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_76dae468934ef2ff65adffff36b90c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_efc1fa1111e5f31638c14322c58039e8.setIcon(icon_76dae468934ef2ff65adffff36b90c0b);
+        
+    
+        var popup_69b7e864f20dfbcd1232b3e90cd1cc26 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_aea343e4cab8ecea5b4e182d3ff4dc1c = $(`<div id="html_aea343e4cab8ecea5b4e182d3ff4dc1c" style="width: 100.0%; height: 100.0%;">三一八烈士纪念碑</div>`)[0];
+                popup_69b7e864f20dfbcd1232b3e90cd1cc26.setContent(html_aea343e4cab8ecea5b4e182d3ff4dc1c);
+            
+        
+
+        marker_efc1fa1111e5f31638c14322c58039e8.bindPopup(popup_69b7e864f20dfbcd1232b3e90cd1cc26)
+        ;
+
+        
+    
+    
+            var marker_b667d08fa5ae3eed82401b38048c2951 = L.marker(
+                [39.9919691, 116.3025867],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_f4e9f7fb0e47d88629850f22843e431a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b667d08fa5ae3eed82401b38048c2951.setIcon(icon_f4e9f7fb0e47d88629850f22843e431a);
+        
+    
+        var popup_98067606d66912c550b56c2f4a268fda = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_cf573719e9059b4b0a890351bc841f6d = $(`<div id="html_cf573719e9059b4b0a890351bc841f6d" style="width: 100.0%; height: 100.0%;">临湖轩</div>`)[0];
+                popup_98067606d66912c550b56c2f4a268fda.setContent(html_cf573719e9059b4b0a890351bc841f6d);
+            
+        
+
+        marker_b667d08fa5ae3eed82401b38048c2951.bindPopup(popup_98067606d66912c550b56c2f4a268fda)
+        ;
+
+        
+    
+    
+            var marker_62fa9511e8f9887dcddce41eb1b21e33 = L.marker(
+                [39.9913464, 116.3032145],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_3342659f1e8470be4f2980edcd524d6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62fa9511e8f9887dcddce41eb1b21e33.setIcon(icon_3342659f1e8470be4f2980edcd524d6d);
+        
+    
+        var popup_5cb190279509600797c337431028bef6 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6d2993f53977d6f6e8b0538013ae2daf = $(`<div id="html_6d2993f53977d6f6e8b0538013ae2daf" style="width: 100.0%; height: 100.0%;">滚墩石</div>`)[0];
+                popup_5cb190279509600797c337431028bef6.setContent(html_6d2993f53977d6f6e8b0538013ae2daf);
+            
+        
+
+        marker_62fa9511e8f9887dcddce41eb1b21e33.bindPopup(popup_5cb190279509600797c337431028bef6)
+        ;
+
+        
+    
+    
+            var marker_a5bda24f867c7ec697c672f06e7140b4 = L.marker(
+                [39.99334755, 116.2998403],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c73c3ab2d7c09ed3bbcd48bb540ac2a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5bda24f867c7ec697c672f06e7140b4.setIcon(icon_c73c3ab2d7c09ed3bbcd48bb540ac2a3);
+        
+    
+        var popup_16e466f84b019e59a4074a645102ea85 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f7dba1b333f51b1f55cf96422242ea58 = $(`<div id="html_f7dba1b333f51b1f55cf96422242ea58" style="width: 100.0%; height: 100.0%;">华表</div>`)[0];
+                popup_16e466f84b019e59a4074a645102ea85.setContent(html_f7dba1b333f51b1f55cf96422242ea58);
+            
+        
+
+        marker_a5bda24f867c7ec697c672f06e7140b4.bindPopup(popup_16e466f84b019e59a4074a645102ea85)
+        ;
+
+        
+    
+    
+            var marker_ff709cbc9e3ae33e281a7a924f271fbf = L.marker(
+                [39.99331106, 116.3001481],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_2afbc79ddd5492bd96ad08c2de0e32a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff709cbc9e3ae33e281a7a924f271fbf.setIcon(icon_2afbc79ddd5492bd96ad08c2de0e32a2);
+        
+    
+        var popup_6e5df15c1782c001639da1d622a26c7c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_265942aeea37e8ab465871f06d936c10 = $(`<div id="html_265942aeea37e8ab465871f06d936c10" style="width: 100.0%; height: 100.0%;">丹陛石</div>`)[0];
+                popup_6e5df15c1782c001639da1d622a26c7c.setContent(html_265942aeea37e8ab465871f06d936c10);
+            
+        
+
+        marker_ff709cbc9e3ae33e281a7a924f271fbf.bindPopup(popup_6e5df15c1782c001639da1d622a26c7c)
+        ;
+
+        
+    
+    
+            var marker_b3567f604dd9435c33de3a2f75e8bdd7 = L.marker(
+                [39.98771961, 116.308256],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_3cfe964dbfdaf6539963187fc8d4a9f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3567f604dd9435c33de3a2f75e8bdd7.setIcon(icon_3cfe964dbfdaf6539963187fc8d4a9f3);
+        
+    
+        var popup_9a4624e28ac25a0ad15acf647b24ee6c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d88328ec7fb8626b315681cf6c5c986d = $(`<div id="html_d88328ec7fb8626b315681cf6c5c986d" style="width: 100.0%; height: 100.0%;">治贝子园</div>`)[0];
+                popup_9a4624e28ac25a0ad15acf647b24ee6c.setContent(html_d88328ec7fb8626b315681cf6c5c986d);
+            
+        
+
+        marker_b3567f604dd9435c33de3a2f75e8bdd7.bindPopup(popup_9a4624e28ac25a0ad15acf647b24ee6c)
+        ;
+
+        
+    
+    
+            var marker_68f136e54a298bd0e1d68165fa942966 = L.marker(
+                [39.99447778, 116.3038471],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a5d1a8ee6034cc2db66c5b4605b118b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_68f136e54a298bd0e1d68165fa942966.setIcon(icon_a5d1a8ee6034cc2db66c5b4605b118b7);
+        
+    
+        var popup_91e4ebdbe02f6a14387417b4e12bdb9d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7bac12904dc4ee201c69367121d8f5e0 = $(`<div id="html_7bac12904dc4ee201c69367121d8f5e0" style="width: 100.0%; height: 100.0%;">石屏风</div>`)[0];
+                popup_91e4ebdbe02f6a14387417b4e12bdb9d.setContent(html_7bac12904dc4ee201c69367121d8f5e0);
+            
+        
+
+        marker_68f136e54a298bd0e1d68165fa942966.bindPopup(popup_91e4ebdbe02f6a14387417b4e12bdb9d)
+        ;
+
+        
+    
+    
+            var marker_cad388718c858bc736c3340ba5c7c39b = L.marker(
+                [39.98909609, 116.3033473],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_3b1e4e54edd6c37340979eb4b7d27d90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cad388718c858bc736c3340ba5c7c39b.setIcon(icon_3b1e4e54edd6c37340979eb4b7d27d90);
+        
+    
+        var popup_d89b9057f9956d3fe8abce4cf0d93dc1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f4a52190ef3bee104db45e7d6404b8bc = $(`<div id="html_f4a52190ef3bee104db45e7d6404b8bc" style="width: 100.0%; height: 100.0%;">花神庙碑</div>`)[0];
+                popup_d89b9057f9956d3fe8abce4cf0d93dc1.setContent(html_f4a52190ef3bee104db45e7d6404b8bc);
+            
+        
+
+        marker_cad388718c858bc736c3340ba5c7c39b.bindPopup(popup_d89b9057f9956d3fe8abce4cf0d93dc1)
+        ;
+
+        
+    
+    
+            var marker_f69291ae60466bd17542c7df7deba260 = L.marker(
+                [39.99535374, 116.3046245],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_94ead78cac3c3cc019c1fd82d743b9c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f69291ae60466bd17542c7df7deba260.setIcon(icon_94ead78cac3c3cc019c1fd82d743b9c0);
+        
+    
+        var popup_7757e19296a1461b6c39bddec4a8ae16 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7d2793c4f1d2dace26bf271e97705c27 = $(`<div id="html_7d2793c4f1d2dace26bf271e97705c27" style="width: 100.0%; height: 100.0%;">镜春园石碑</div>`)[0];
+                popup_7757e19296a1461b6c39bddec4a8ae16.setContent(html_7d2793c4f1d2dace26bf271e97705c27);
+            
+        
+
+        marker_f69291ae60466bd17542c7df7deba260.bindPopup(popup_7757e19296a1461b6c39bddec4a8ae16)
+        ;
+
+        
+    
+    
+            var marker_e176bfadb6e315330a9bb5d7169385be = L.marker(
+                [39.99643768, 116.3045776],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_5010538fc4d1b469852b15e12dfbbfb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e176bfadb6e315330a9bb5d7169385be.setIcon(icon_5010538fc4d1b469852b15e12dfbbfb5);
+        
+    
+        var popup_897235ad9a5c588ea14bd592f25b0572 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6878918340704919d3812186a11a5030 = $(`<div id="html_6878918340704919d3812186a11a5030" style="width: 100.0%; height: 100.0%;">朗润园石碑</div>`)[0];
+                popup_897235ad9a5c588ea14bd592f25b0572.setContent(html_6878918340704919d3812186a11a5030);
+            
+        
+
+        marker_e176bfadb6e315330a9bb5d7169385be.bindPopup(popup_897235ad9a5c588ea14bd592f25b0572)
+        ;
+
+        
+    
+    
+            var marker_188fd3f957d12103f0b89b396dcabe74 = L.marker(
+                [39.99595141, 116.3036221],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_caedd0393e5cf8a397c01495f0d5fe24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_188fd3f957d12103f0b89b396dcabe74.setIcon(icon_caedd0393e5cf8a397c01495f0d5fe24);
+        
+    
+        var popup_e2b5c088850e97b6b85f8cd2ab88808a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f21f6dee38bbab35cc73e2c8b78993cd = $(`<div id="html_f21f6dee38bbab35cc73e2c8b78993cd" style="width: 100.0%; height: 100.0%;">“断桥残雪”石牌坊</div>`)[0];
+                popup_e2b5c088850e97b6b85f8cd2ab88808a.setContent(html_f21f6dee38bbab35cc73e2c8b78993cd);
+            
+        
+
+        marker_188fd3f957d12103f0b89b396dcabe74.bindPopup(popup_e2b5c088850e97b6b85f8cd2ab88808a)
+        ;
+
+        
+    
+    
+            var marker_a3af622ab086baf0c6c50131a250f579 = L.marker(
+                [39.99162395, 116.3013956],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_076bcdc605c6106326a416524ee8efcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3af622ab086baf0c6c50131a250f579.setIcon(icon_076bcdc605c6106326a416524ee8efcb);
+        
+    
+        var popup_084a698c5252b8531bf1700767354519 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0a60bd1d25bb24c2d54286a3ae3eb5fa = $(`<div id="html_0a60bd1d25bb24c2d54286a3ae3eb5fa" style="width: 100.0%; height: 100.0%;">香炉</div>`)[0];
+                popup_084a698c5252b8531bf1700767354519.setContent(html_0a60bd1d25bb24c2d54286a3ae3eb5fa);
+            
+        
+
+        marker_a3af622ab086baf0c6c50131a250f579.bindPopup(popup_084a698c5252b8531bf1700767354519)
+        ;
+
+        
+    
+    
+            var marker_fd5705636f84dfd849351c35979e58fd = L.marker(
+                [39.99343148, 116.3017809],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_2b7ab4c90f9dad09a2da04ce8106dabd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd5705636f84dfd849351c35979e58fd.setIcon(icon_2b7ab4c90f9dad09a2da04ce8106dabd);
+        
+    
+        var popup_afc5f649f4e6893983b25dc4a6af721a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9e2ca79d616c2780bf75b815b5f2ec7c = $(`<div id="html_9e2ca79d616c2780bf75b815b5f2ec7c" style="width: 100.0%; height: 100.0%;">未名湖碑</div>`)[0];
+                popup_afc5f649f4e6893983b25dc4a6af721a.setContent(html_9e2ca79d616c2780bf75b815b5f2ec7c);
+            
+        
+
+        marker_fd5705636f84dfd849351c35979e58fd.bindPopup(popup_afc5f649f4e6893983b25dc4a6af721a)
+        ;
+
+        
+    
+    
+            var marker_b7378f7319f7574b2a1e5d5799b97492 = L.marker(
+                [39.99382304, 116.3017099],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_08cac8e0ec9689cd64efa2489e4cbbc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7378f7319f7574b2a1e5d5799b97492.setIcon(icon_08cac8e0ec9689cd64efa2489e4cbbc3);
+        
+    
+        var popup_500934efc51a80568e9c7dffc635f13a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8861e00d8a03f466c4d0179001dafbc2 = $(`<div id="html_8861e00d8a03f466c4d0179001dafbc2" style="width: 100.0%; height: 100.0%;">德才兼备体健全斋</div>`)[0];
+                popup_500934efc51a80568e9c7dffc635f13a.setContent(html_8861e00d8a03f466c4d0179001dafbc2);
+            
+        
+
+        marker_b7378f7319f7574b2a1e5d5799b97492.bindPopup(popup_500934efc51a80568e9c7dffc635f13a)
+        ;
+
+        
+    
+    
+            var marker_b57010a74918462db6896e8050f1c2e0 = L.marker(
+                [39.99120321, 116.3005191],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_30a3640150625282bc709935a75e5494 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b57010a74918462db6896e8050f1c2e0.setIcon(icon_30a3640150625282bc709935a75e5494);
+        
+    
+        var popup_51336c9c9aea39cfe80ae9030a6aca4c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6eddd2ef95595eb07eec8f5cb7b2f743 = $(`<div id="html_6eddd2ef95595eb07eec8f5cb7b2f743" style="width: 100.0%; height: 100.0%;">智慧之树</div>`)[0];
+                popup_51336c9c9aea39cfe80ae9030a6aca4c.setContent(html_6eddd2ef95595eb07eec8f5cb7b2f743);
+            
+        
+
+        marker_b57010a74918462db6896e8050f1c2e0.bindPopup(popup_51336c9c9aea39cfe80ae9030a6aca4c)
+        ;
+
+        
+    
+    
+            var marker_fbc186a60d23696384a778bd2dfe3d7a = L.marker(
+                [39.99177699, 116.3008322],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_6e7d7a16c07edffc9a11c49007a3bb96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbc186a60d23696384a778bd2dfe3d7a.setIcon(icon_6e7d7a16c07edffc9a11c49007a3bb96);
+        
+    
+        var popup_e59e91adcda3c64d0cc4e11b3063aa41 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_172040500f15fa379c830db7baf6e02e = $(`<div id="html_172040500f15fa379c830db7baf6e02e" style="width: 100.0%; height: 100.0%;">北大清华友谊常青碑</div>`)[0];
+                popup_e59e91adcda3c64d0cc4e11b3063aa41.setContent(html_172040500f15fa379c830db7baf6e02e);
+            
+        
+
+        marker_fbc186a60d23696384a778bd2dfe3d7a.bindPopup(popup_e59e91adcda3c64d0cc4e11b3063aa41)
+        ;
+
+        
+    
+    
+            var marker_19304de49d7ea9e374c5f2d7bd8133e6 = L.marker(
+                [39.99379898, 116.3081938],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_06768e4b4bcfdc94d3127f0fe09b623b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_19304de49d7ea9e374c5f2d7bd8133e6.setIcon(icon_06768e4b4bcfdc94d3127f0fe09b623b);
+        
+    
+        var popup_413f9de6a89852a27c8385366da30aad = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e572487f2131770687a6aaabf8b5918c = $(`<div id="html_e572487f2131770687a6aaabf8b5918c" style="width: 100.0%; height: 100.0%;">石碑与法柱颂</div>`)[0];
+                popup_413f9de6a89852a27c8385366da30aad.setContent(html_e572487f2131770687a6aaabf8b5918c);
+            
+        
+
+        marker_19304de49d7ea9e374c5f2d7bd8133e6.bindPopup(popup_413f9de6a89852a27c8385366da30aad)
+        ;
+
+        
+    
+    
+            var marker_75e7da5eb95e009dae35d5a32d3aef97 = L.marker(
+                [39.99190838, 116.3026456],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_896b2151caaedd0e342cbe323b2ce3cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75e7da5eb95e009dae35d5a32d3aef97.setIcon(icon_896b2151caaedd0e342cbe323b2ce3cc);
+        
+    
+        var popup_dd360a28ce666423472ac063e8e15208 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_466d7865bd003e31ea6d6d020f360cc8 = $(`<div id="html_466d7865bd003e31ea6d6d020f360cc8" style="width: 100.0%; height: 100.0%;">静思石</div>`)[0];
+                popup_dd360a28ce666423472ac063e8e15208.setContent(html_466d7865bd003e31ea6d6d020f360cc8);
+            
+        
+
+        marker_75e7da5eb95e009dae35d5a32d3aef97.bindPopup(popup_dd360a28ce666423472ac063e8e15208)
+        ;
+
+        
+    
+    
+            var marker_e4d449c2600a37c3a8c29c4c3ea31938 = L.marker(
+                [39.99373113, 116.3031299],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a431d184ca2fa5354a6eac3f20183e72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e4d449c2600a37c3a8c29c4c3ea31938.setIcon(icon_a431d184ca2fa5354a6eac3f20183e72);
+        
+    
+        var popup_7cea901298002a3754b657b1cdb5ee5b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9b992de959e63904b4a089c691131d3d = $(`<div id="html_9b992de959e63904b4a089c691131d3d" style="width: 100.0%; height: 100.0%;">西式平桥</div>`)[0];
+                popup_7cea901298002a3754b657b1cdb5ee5b.setContent(html_9b992de959e63904b4a089c691131d3d);
+            
+        
+
+        marker_e4d449c2600a37c3a8c29c4c3ea31938.bindPopup(popup_7cea901298002a3754b657b1cdb5ee5b)
+        ;
+
+        
+    
+    
+            var marker_088028ffb5e0b06e510c07e966ec8d34 = L.marker(
+                [39.98840313, 116.3047418],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_5351a86ae4cde0bc1fd03391e28ad286 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_088028ffb5e0b06e510c07e966ec8d34.setIcon(icon_5351a86ae4cde0bc1fd03391e28ad286);
+        
+    
+        var popup_6791cb9c1aefbdfa11ee87b933ffcd52 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c5c0020ff13970fb389250a5c84b8458 = $(`<div id="html_c5c0020ff13970fb389250a5c84b8458" style="width: 100.0%; height: 100.0%;">百周年纪念讲堂</div>`)[0];
+                popup_6791cb9c1aefbdfa11ee87b933ffcd52.setContent(html_c5c0020ff13970fb389250a5c84b8458);
+            
+        
+
+        marker_088028ffb5e0b06e510c07e966ec8d34.bindPopup(popup_6791cb9c1aefbdfa11ee87b933ffcd52)
+        ;
+
+        
+    
+    
+            var marker_95278faa183fdff0d2663e9f504ca500 = L.marker(
+                [39.99341225, 116.3016173],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_b02fc94d0a0f149eef9470e1ed4af9b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95278faa183fdff0d2663e9f504ca500.setIcon(icon_b02fc94d0a0f149eef9470e1ed4af9b2);
+        
+    
+        var popup_a7e53670d352e2eb295f71c4c5d973cc = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_32dd18db3ad7c061582e31685d8622d5 = $(`<div id="html_32dd18db3ad7c061582e31685d8622d5" style="width: 100.0%; height: 100.0%;">鹊桥</div>`)[0];
+                popup_a7e53670d352e2eb295f71c4c5d973cc.setContent(html_32dd18db3ad7c061582e31685d8622d5);
+            
+        
+
+        marker_95278faa183fdff0d2663e9f504ca500.bindPopup(popup_a7e53670d352e2eb295f71c4c5d973cc)
+        ;
+
+        
+    
+    
+            var marker_8dc4ac518654a0d4404e438ed86ff1da = L.marker(
+                [39.99433093, 116.2985432],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_5aa490957cde1bf1cba929119b20322e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8dc4ac518654a0d4404e438ed86ff1da.setIcon(icon_5aa490957cde1bf1cba929119b20322e);
+        
+    
+        var popup_6e967f8c54316936d0e553ebb8b98c28 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d5f569c59323930ff7c70f0a15970856 = $(`<div id="html_d5f569c59323930ff7c70f0a15970856" style="width: 100.0%; height: 100.0%;">校景柱</div>`)[0];
+                popup_6e967f8c54316936d0e553ebb8b98c28.setContent(html_d5f569c59323930ff7c70f0a15970856);
+            
+        
+
+        marker_8dc4ac518654a0d4404e438ed86ff1da.bindPopup(popup_6e967f8c54316936d0e553ebb8b98c28)
+        ;
+
+        
+    
+    
+            var marker_2faf64848b40bc9fa4abb07a25178ce8 = L.marker(
+                [39.99328959, 116.2988994],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c928acb2eb892ea6fb98c615fd81ad29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2faf64848b40bc9fa4abb07a25178ce8.setIcon(icon_c928acb2eb892ea6fb98c615fd81ad29);
+        
+    
+        var popup_2a5c79148d82b6ca2ef9633be35558a6 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_542e9a5991c9f7856dcd18e555bd484f = $(`<div id="html_542e9a5991c9f7856dcd18e555bd484f" style="width: 100.0%; height: 100.0%;">校友桥</div>`)[0];
+                popup_2a5c79148d82b6ca2ef9633be35558a6.setContent(html_542e9a5991c9f7856dcd18e555bd484f);
+            
+        
+
+        marker_2faf64848b40bc9fa4abb07a25178ce8.bindPopup(popup_2a5c79148d82b6ca2ef9633be35558a6)
+        ;
+
+        
+    
+    
+            var marker_4f9a95e3319d9fb8f574dc093e0f5913 = L.marker(
+                [39.99149461, 116.3001524],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_19a11176ff36ed318e45b720890bbcd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f9a95e3319d9fb8f574dc093e0f5913.setIcon(icon_19a11176ff36ed318e45b720890bbcd8);
+        
+    
+        var popup_02f52431644162d42c965158aa80ec40 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0c3b05596f851604bfff5fdc0a799b9d = $(`<div id="html_0c3b05596f851604bfff5fdc0a799b9d" style="width: 100.0%; height: 100.0%;">塞万提斯纪念碑</div>`)[0];
+                popup_02f52431644162d42c965158aa80ec40.setContent(html_0c3b05596f851604bfff5fdc0a799b9d);
+            
+        
+
+        marker_4f9a95e3319d9fb8f574dc093e0f5913.bindPopup(popup_02f52431644162d42c965158aa80ec40)
+        ;
+
+        
+    
+    
+            var marker_3710b4ecf971a3e25bd7d026c1df8631 = L.marker(
+                [39.99140385, 116.304973],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_48d4836ccd3006743b7c0dc5d3f442ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3710b4ecf971a3e25bd7d026c1df8631.setIcon(icon_48d4836ccd3006743b7c0dc5d3f442ca);
+        
+    
+        var popup_373c9beec22dbd829e57fb526c0f305f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7780e6d607641b0b3b98272ec44f34ac = $(`<div id="html_7780e6d607641b0b3b98272ec44f34ac" style="width: 100.0%; height: 100.0%;">“振兴中华”石</div>`)[0];
+                popup_373c9beec22dbd829e57fb526c0f305f.setContent(html_7780e6d607641b0b3b98272ec44f34ac);
+            
+        
+
+        marker_3710b4ecf971a3e25bd7d026c1df8631.bindPopup(popup_373c9beec22dbd829e57fb526c0f305f)
+        ;
+
+        
+    
+    
+            var marker_85dc11a919bfdc2bcae9235106b0720f = L.marker(
+                [39.99334579, 116.3002632],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_497d2c0fe8d88a36d468f206a14cd228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85dc11a919bfdc2bcae9235106b0720f.setIcon(icon_497d2c0fe8d88a36d468f206a14cd228);
+        
+    
+        var popup_99f99c7124b0eb70a6218f6324cb31ef = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b8c66e06a4a4d4f22b59a8ad7fcf6dd2 = $(`<div id="html_b8c66e06a4a4d4f22b59a8ad7fcf6dd2" style="width: 100.0%; height: 100.0%;">麒麟（右）</div>`)[0];
+                popup_99f99c7124b0eb70a6218f6324cb31ef.setContent(html_b8c66e06a4a4d4f22b59a8ad7fcf6dd2);
+            
+        
+
+        marker_85dc11a919bfdc2bcae9235106b0720f.bindPopup(popup_99f99c7124b0eb70a6218f6324cb31ef)
+        ;
+
+        
+    
+    
+            var marker_0de586f6dcc66627b87b704a07a00030 = L.marker(
+                [39.99343326, 116.3001789],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_ba847694cfab3b4a3c46ec3fad322316 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0de586f6dcc66627b87b704a07a00030.setIcon(icon_ba847694cfab3b4a3c46ec3fad322316);
+        
+    
+        var popup_3f6767266c5ffd59a4f0b14d6b89f8e4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0496675985e1d4601ca02b9911662a3e = $(`<div id="html_0496675985e1d4601ca02b9911662a3e" style="width: 100.0%; height: 100.0%;">麒麟（左）</div>`)[0];
+                popup_3f6767266c5ffd59a4f0b14d6b89f8e4.setContent(html_0496675985e1d4601ca02b9911662a3e);
+            
+        
+
+        marker_0de586f6dcc66627b87b704a07a00030.bindPopup(popup_3f6767266c5ffd59a4f0b14d6b89f8e4)
+        ;
+
+        
+    
+    
+            var marker_b1e4ac94a8ec0c74f0d1f60d43dc6673 = L.marker(
+                [39.98814801, 116.3093854],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_1af60db9c9f7fb8d9c3681aac2ed5aea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1e4ac94a8ec0c74f0d1f60d43dc6673.setIcon(icon_1af60db9c9f7fb8d9c3681aac2ed5aea);
+        
+    
+        var popup_e71577a2ddd4fe30ff9ae84f4207c06a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_48b448a070a5c05abbd5e777cb2db352 = $(`<div id="html_48b448a070a5c05abbd5e777cb2db352" style="width: 100.0%; height: 100.0%;">冠军浮雕</div>`)[0];
+                popup_e71577a2ddd4fe30ff9ae84f4207c06a.setContent(html_48b448a070a5c05abbd5e777cb2db352);
+            
+        
+
+        marker_b1e4ac94a8ec0c74f0d1f60d43dc6673.bindPopup(popup_e71577a2ddd4fe30ff9ae84f4207c06a)
+        ;
+
+        
+    
+    
+            var marker_51c9023f564326a6f0d37e9b7049a33f = L.marker(
+                [39.986959, 116.3033288],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_73d471ee2d6aa6ff6f802f8fcf875d49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51c9023f564326a6f0d37e9b7049a33f.setIcon(icon_73d471ee2d6aa6ff6f802f8fcf875d49);
+        
+    
+        var popup_8567a4f56e58f47bc3ae51c3fe7488b5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4f6362d561459de73184aa8accfad731 = $(`<div id="html_4f6362d561459de73184aa8accfad731" style="width: 100.0%; height: 100.0%;">民主与科学</div>`)[0];
+                popup_8567a4f56e58f47bc3ae51c3fe7488b5.setContent(html_4f6362d561459de73184aa8accfad731);
+            
+        
+
+        marker_51c9023f564326a6f0d37e9b7049a33f.bindPopup(popup_8567a4f56e58f47bc3ae51c3fe7488b5)
+        ;
+
+        
+    
+    
+            var marker_6e6922eccbf8afaddd36366cf941ea57 = L.marker(
+                [39.9894211, 116.3054376],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_871a9aa8bf10231203d172556f6dca0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e6922eccbf8afaddd36366cf941ea57.setIcon(icon_871a9aa8bf10231203d172556f6dca0e);
+        
+    
+        var popup_aee3dd66c224ef3f8171b2fd7a681869 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3a31fbb5f4a5bf0f6b12cc4597015412 = $(`<div id="html_3a31fbb5f4a5bf0f6b12cc4597015412" style="width: 100.0%; height: 100.0%;">“敢当”石</div>`)[0];
+                popup_aee3dd66c224ef3f8171b2fd7a681869.setContent(html_3a31fbb5f4a5bf0f6b12cc4597015412);
+            
+        
+
+        marker_6e6922eccbf8afaddd36366cf941ea57.bindPopup(popup_aee3dd66c224ef3f8171b2fd7a681869)
+        ;
+
+        
+    
+    
+            var marker_c6f4e7bfa1093cced6a9dee2d07c13e9 = L.marker(
+                [39.99296158, 116.3014209],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_49c8cabead8f05fcbc83186d02419d78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6f4e7bfa1093cced6a9dee2d07c13e9.setIcon(icon_49c8cabead8f05fcbc83186d02419d78);
+        
+    
+        var popup_02f5bc16029db0ed760bd5044cb1ebd2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_588a11812a9b26fb5726dd8fab02176d = $(`<div id="html_588a11812a9b26fb5726dd8fab02176d" style="width: 100.0%; height: 100.0%;">蔡元培像</div>`)[0];
+                popup_02f5bc16029db0ed760bd5044cb1ebd2.setContent(html_588a11812a9b26fb5726dd8fab02176d);
+            
+        
+
+        marker_c6f4e7bfa1093cced6a9dee2d07c13e9.bindPopup(popup_02f5bc16029db0ed760bd5044cb1ebd2)
+        ;
+
+        
+    
+    
+            var marker_37ed3eb4e53c7b9c5f5fe093dfaaafc9 = L.marker(
+                [39.99273883, 116.30419],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_16a5edb07f67bce97da43d272a5191c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_37ed3eb4e53c7b9c5f5fe093dfaaafc9.setIcon(icon_16a5edb07f67bce97da43d272a5191c8);
+        
+    
+        var popup_465a970fae2df67c4606edf9a776c7e1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1e7c81074e3fd60ee1d5029512dbb60c = $(`<div id="html_1e7c81074e3fd60ee1d5029512dbb60c" style="width: 100.0%; height: 100.0%;">旗杆座1934（西）</div>`)[0];
+                popup_465a970fae2df67c4606edf9a776c7e1.setContent(html_1e7c81074e3fd60ee1d5029512dbb60c);
+            
+        
+
+        marker_37ed3eb4e53c7b9c5f5fe093dfaaafc9.bindPopup(popup_465a970fae2df67c4606edf9a776c7e1)
+        ;
+
+        
+    
+    
+            var marker_0e2ec52f9615c6178590f6fd6492521f = L.marker(
+                [39.99273538, 116.3043947],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_54748feaa9dabfbe3063506161fce7ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0e2ec52f9615c6178590f6fd6492521f.setIcon(icon_54748feaa9dabfbe3063506161fce7ee);
+        
+    
+        var popup_5ae680dc6477156fceeba6f35cb4f741 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e6664b6899f11f39f4cc0d46fe4e5aca = $(`<div id="html_e6664b6899f11f39f4cc0d46fe4e5aca" style="width: 100.0%; height: 100.0%;">旗杆座1934（东）</div>`)[0];
+                popup_5ae680dc6477156fceeba6f35cb4f741.setContent(html_e6664b6899f11f39f4cc0d46fe4e5aca);
+            
+        
+
+        marker_0e2ec52f9615c6178590f6fd6492521f.bindPopup(popup_5ae680dc6477156fceeba6f35cb4f741)
+        ;
+
+        
+    
+    
+            var marker_04818408b29ea80387979e0673ee3d8a = L.marker(
+                [39.99082936, 116.3021975],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_fef25d192d14dda86c5b68338aa67035 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04818408b29ea80387979e0673ee3d8a.setIcon(icon_fef25d192d14dda86c5b68338aa67035);
+        
+    
+        var popup_5bba52120f15c58010b64052f3df6cbb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f5207859537c7eef0d986cbcb1d1a0b8 = $(`<div id="html_f5207859537c7eef0d986cbcb1d1a0b8" style="width: 100.0%; height: 100.0%;">北京大学革命烈士纪念碑</div>`)[0];
+                popup_5bba52120f15c58010b64052f3df6cbb.setContent(html_f5207859537c7eef0d986cbcb1d1a0b8);
+            
+        
+
+        marker_04818408b29ea80387979e0673ee3d8a.bindPopup(popup_5bba52120f15c58010b64052f3df6cbb)
+        ;
+
+        
+    
+    
+            var marker_ba80d1408c65ca9326103c797cbeff40 = L.marker(
+                [39.99163722, 116.3020233],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_4328310ef123d026753ec4bc9de9c48a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba80d1408c65ca9326103c797cbeff40.setIcon(icon_4328310ef123d026753ec4bc9de9c48a);
+        
+    
+        var popup_ae4b5815a0ddef8af219126e223b15a3 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_52e57cd43e6688904e9e262bd5e5b502 = $(`<div id="html_52e57cd43e6688904e9e262bd5e5b502" style="width: 100.0%; height: 100.0%;">李大钊像</div>`)[0];
+                popup_ae4b5815a0ddef8af219126e223b15a3.setContent(html_52e57cd43e6688904e9e262bd5e5b502);
+            
+        
+
+        marker_ba80d1408c65ca9326103c797cbeff40.bindPopup(popup_ae4b5815a0ddef8af219126e223b15a3)
+        ;
+
+        
+    
+    
+            var marker_1fae92cb868442cf8471947ee8b8b82e = L.marker(
+                [39.99354169, 116.3022051],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_e76820a96211d25e0a175cd4645609cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fae92cb868442cf8471947ee8b8b82e.setIcon(icon_e76820a96211d25e0a175cd4645609cd);
+        
+    
+        var popup_ad0766a5491af040011bd72f6d6cc723 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fc721a6a63970713ce4ac0e78f4cc748 = $(`<div id="html_fc721a6a63970713ce4ac0e78f4cc748" style="width: 100.0%; height: 100.0%;">“原燕京大学未名湖区”碑</div>`)[0];
+                popup_ad0766a5491af040011bd72f6d6cc723.setContent(html_fc721a6a63970713ce4ac0e78f4cc748);
+            
+        
+
+        marker_1fae92cb868442cf8471947ee8b8b82e.bindPopup(popup_ad0766a5491af040011bd72f6d6cc723)
+        ;
+
+        
+    
+    
+            var marker_6f72d322cc8cfd66e657777f8a6e546a = L.marker(
+                [39.99252067, 116.3032411],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_28122b5e625639dd9aab42836f0cac72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6f72d322cc8cfd66e657777f8a6e546a.setIcon(icon_28122b5e625639dd9aab42836f0cac72);
+        
+    
+        var popup_f2e2c70f981225aaf9937d4d3f85e9ba = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d0dabe0346424ab5cc9377f64901f278 = $(`<div id="html_d0dabe0346424ab5cc9377f64901f278" style="width: 100.0%; height: 100.0%;">赖朴吾和夏仁德墓</div>`)[0];
+                popup_f2e2c70f981225aaf9937d4d3f85e9ba.setContent(html_d0dabe0346424ab5cc9377f64901f278);
+            
+        
+
+        marker_6f72d322cc8cfd66e657777f8a6e546a.bindPopup(popup_f2e2c70f981225aaf9937d4d3f85e9ba)
+        ;
+
+        
+    
+    
+            var marker_ef74c18707b4a2aa80f9a98a93504801 = L.marker(
+                [39.99357463, 116.2992273],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_b1031b6e1df081fa3f3516dbddf31209 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef74c18707b4a2aa80f9a98a93504801.setIcon(icon_b1031b6e1df081fa3f3516dbddf31209);
+        
+    
+        var popup_92ab54204103a6550143e40c81ecbcca = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_eb335148d5a609e078e7cbab0045e3aa = $(`<div id="html_eb335148d5a609e078e7cbab0045e3aa" style="width: 100.0%; height: 100.0%;">1924旗杆座</div>`)[0];
+                popup_92ab54204103a6550143e40c81ecbcca.setContent(html_eb335148d5a609e078e7cbab0045e3aa);
+            
+        
+
+        marker_ef74c18707b4a2aa80f9a98a93504801.bindPopup(popup_92ab54204103a6550143e40c81ecbcca)
+        ;
+
+        
+    
+    
+            var marker_f7b6d014167ae42985a45810f6808dca = L.marker(
+                [39.99254869, 116.2989891],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_292ff99d00b7fd0b13b06479e1ab3acf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7b6d014167ae42985a45810f6808dca.setIcon(icon_292ff99d00b7fd0b13b06479e1ab3acf);
+        
+    
+        var popup_a1c576413e383fe3880d2346ed2de095 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_00789a93ae06b78e8727471b5fe2adc0 = $(`<div id="html_00789a93ae06b78e8727471b5fe2adc0" style="width: 100.0%; height: 100.0%;">葛利普教授之墓</div>`)[0];
+                popup_a1c576413e383fe3880d2346ed2de095.setContent(html_00789a93ae06b78e8727471b5fe2adc0);
+            
+        
+
+        marker_f7b6d014167ae42985a45810f6808dca.bindPopup(popup_a1c576413e383fe3880d2346ed2de095)
+        ;
+
+        
+    
+    
+            var marker_81f25a906116c79ec356590eac4d77d3 = L.marker(
+                [39.99236136, 116.2991899],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_082374248267200c5be41f5f106cb030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81f25a906116c79ec356590eac4d77d3.setIcon(icon_082374248267200c5be41f5f106cb030);
+        
+    
+        var popup_36b830ca042ef3aea43a97e50f79cd95 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_474d7746379c0e92291af6ef5c287f13 = $(`<div id="html_474d7746379c0e92291af6ef5c287f13" style="width: 100.0%; height: 100.0%;">西南联大纪念碑</div>`)[0];
+                popup_36b830ca042ef3aea43a97e50f79cd95.setContent(html_474d7746379c0e92291af6ef5c287f13);
+            
+        
+
+        marker_81f25a906116c79ec356590eac4d77d3.bindPopup(popup_36b830ca042ef3aea43a97e50f79cd95)
+        ;
+
+        
+    
+    
+            var marker_f85cc12a78a94406730da96e2ece9acb = L.marker(
+                [39.99265701, 116.2993251],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_de9926ff97b117ecefb001aa06f96ae1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f85cc12a78a94406730da96e2ece9acb.setIcon(icon_de9926ff97b117ecefb001aa06f96ae1);
+        
+    
+        var popup_1058e358af7a31d5d86c51c66b17be7b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_eb19a8906616b9a83b9591d18fedfa23 = $(`<div id="html_eb19a8906616b9a83b9591d18fedfa23" style="width: 100.0%; height: 100.0%;">旗杆座（1952）</div>`)[0];
+                popup_1058e358af7a31d5d86c51c66b17be7b.setContent(html_eb19a8906616b9a83b9591d18fedfa23);
+            
+        
+
+        marker_f85cc12a78a94406730da96e2ece9acb.bindPopup(popup_1058e358af7a31d5d86c51c66b17be7b)
+        ;
+
+        
+    
+    
+            var marker_4979b1eaf7df1c92bbdf5e641d5388fb = L.marker(
+                [39.99132553, 116.3022388],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_903ce978127f9ce13b9ad1d01c10bb0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4979b1eaf7df1c92bbdf5e641d5388fb.setIcon(icon_903ce978127f9ce13b9ad1d01c10bb0f);
+        
+    
+        var popup_09dd9b4cd0e4dc3ae2a2da4c1af61e33 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_bdeb688373dd8ffc4689c3ee33a0451e = $(`<div id="html_bdeb688373dd8ffc4689c3ee33a0451e" style="width: 100.0%; height: 100.0%;">“建园留念”石</div>`)[0];
+                popup_09dd9b4cd0e4dc3ae2a2da4c1af61e33.setContent(html_bdeb688373dd8ffc4689c3ee33a0451e);
+            
+        
+
+        marker_4979b1eaf7df1c92bbdf5e641d5388fb.bindPopup(popup_09dd9b4cd0e4dc3ae2a2da4c1af61e33)
+        ;
+
+        
+    
+    
+            var marker_ef28014cab844a155aaf10a8971b87c6 = L.marker(
+                [39.98799975, 116.3090001],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_6788a3922ec27be3e57c3bd43803c0f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef28014cab844a155aaf10a8971b87c6.setIcon(icon_6788a3922ec27be3e57c3bd43803c0f8);
+        
+    
+        var popup_c4a69a038cc6d1398b1fdee24e749795 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6824afbba68b02a3b062d81db82c7708 = $(`<div id="html_6824afbba68b02a3b062d81db82c7708" style="width: 100.0%; height: 100.0%;">邱德拔体育馆</div>`)[0];
+                popup_c4a69a038cc6d1398b1fdee24e749795.setContent(html_6824afbba68b02a3b062d81db82c7708);
+            
+        
+
+        marker_ef28014cab844a155aaf10a8971b87c6.bindPopup(popup_c4a69a038cc6d1398b1fdee24e749795)
+        ;
+
+        
+    
+    
+            var marker_b8fd9909728d7d4559ed1ad37e89cc68 = L.marker(
+                [39.9880526, 116.3042695],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_e91b638ea10b5e55bf9e05b6fb52513c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8fd9909728d7d4559ed1ad37e89cc68.setIcon(icon_e91b638ea10b5e55bf9e05b6fb52513c);
+        
+    
+        var popup_ab916940b97bee4d38e66557fd93e441 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_82b0f928a6382185c93ba0e2383eb0cf = $(`<div id="html_82b0f928a6382185c93ba0e2383eb0cf" style="width: 100.0%; height: 100.0%;">三角地</div>`)[0];
+                popup_ab916940b97bee4d38e66557fd93e441.setContent(html_82b0f928a6382185c93ba0e2383eb0cf);
+            
+        
+
+        marker_b8fd9909728d7d4559ed1ad37e89cc68.bindPopup(popup_ab916940b97bee4d38e66557fd93e441)
+        ;
+
+        
+    
+    
+            var marker_f884495fce3cad6977b3cc36e532bfca = L.marker(
+                [39.98823638, 116.3037703],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_f8bd71216bb8474ce6f71dab4fb90d06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f884495fce3cad6977b3cc36e532bfca.setIcon(icon_f8bd71216bb8474ce6f71dab4fb90d06);
+        
+    
+        var popup_688b07884db6d454ae9900069c4ab915 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4442c80868304f5aad82f70a3d47790c = $(`<div id="html_4442c80868304f5aad82f70a3d47790c" style="width: 100.0%; height: 100.0%;">陈岱孙雕塑</div>`)[0];
+                popup_688b07884db6d454ae9900069c4ab915.setContent(html_4442c80868304f5aad82f70a3d47790c);
+            
+        
+
+        marker_f884495fce3cad6977b3cc36e532bfca.bindPopup(popup_688b07884db6d454ae9900069c4ab915)
+        ;
+
+        
+    
+    
+            var marker_b0cea489526f6dbcb961d6ae0c110fa1 = L.marker(
+                [39.9880646, 116.3033046],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_70f2764c4390e5f0ca064da4bc28e44d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0cea489526f6dbcb961d6ae0c110fa1.setIcon(icon_70f2764c4390e5f0ca064da4bc28e44d);
+        
+    
+        var popup_0646d22d4079949553a6a78d87cc6ff3 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a09e40b24a6c0281a72b2d0583f1f30e = $(`<div id="html_a09e40b24a6c0281a72b2d0583f1f30e" style="width: 100.0%; height: 100.0%;">冯友兰故居</div>`)[0];
+                popup_0646d22d4079949553a6a78d87cc6ff3.setContent(html_a09e40b24a6c0281a72b2d0583f1f30e);
+            
+        
+
+        marker_b0cea489526f6dbcb961d6ae0c110fa1.bindPopup(popup_0646d22d4079949553a6a78d87cc6ff3)
+        ;
+
+        
+    
+    
+            var marker_88dc30be0c570af69a616e3dd1aa40d7 = L.marker(
+                [39.98819904, 116.3028161],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_901f44d386e9e009b829c36da4b3da1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88dc30be0c570af69a616e3dd1aa40d7.setIcon(icon_901f44d386e9e009b829c36da4b3da1f);
+        
+    
+        var popup_2e607616f85e2ac7f8aff4d5cc90233d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_40861b68ab9387f73d85f700ea92bdc7 = $(`<div id="html_40861b68ab9387f73d85f700ea92bdc7" style="width: 100.0%; height: 100.0%;">燕南园道路</div>`)[0];
+                popup_2e607616f85e2ac7f8aff4d5cc90233d.setContent(html_40861b68ab9387f73d85f700ea92bdc7);
+            
+        
+
+        marker_88dc30be0c570af69a616e3dd1aa40d7.bindPopup(popup_2e607616f85e2ac7f8aff4d5cc90233d)
+        ;
+
+        
+    
+    
+            var marker_af8ad74cd53cf68f98a943763945681f = L.marker(
+                [39.99223245, 116.3075061],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_26ebd1a6307d5cab73de1a1d4973c5b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_af8ad74cd53cf68f98a943763945681f.setIcon(icon_26ebd1a6307d5cab73de1a1d4973c5b4);
+        
+    
+        var popup_b420ceecce1f740dfbe16c162bf0b812 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3a28c5ec373c858da8e618675f6fdfa2 = $(`<div id="html_3a28c5ec373c858da8e618675f6fdfa2" style="width: 100.0%; height: 100.0%;">东侧门草坪</div>`)[0];
+                popup_b420ceecce1f740dfbe16c162bf0b812.setContent(html_3a28c5ec373c858da8e618675f6fdfa2);
+            
+        
+
+        marker_af8ad74cd53cf68f98a943763945681f.bindPopup(popup_b420ceecce1f740dfbe16c162bf0b812)
+        ;
+
+        
+    
+    
+            var marker_6fe910d55c579b3a39f5b6f93923d894 = L.marker(
+                [39.99447895, 116.3071566],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c6f2d268a8b36a3b84b65051c159067c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6fe910d55c579b3a39f5b6f93923d894.setIcon(icon_c6f2d268a8b36a3b84b65051c159067c);
+        
+    
+        var popup_86d693c9f5cdc8a8944a9a2901675d62 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_029cdfe997c69bc924cb41205cef26a6 = $(`<div id="html_029cdfe997c69bc924cb41205cef26a6" style="width: 100.0%; height: 100.0%;">太湖石</div>`)[0];
+                popup_86d693c9f5cdc8a8944a9a2901675d62.setContent(html_029cdfe997c69bc924cb41205cef26a6);
+            
+        
+
+        marker_6fe910d55c579b3a39f5b6f93923d894.bindPopup(popup_86d693c9f5cdc8a8944a9a2901675d62)
+        ;
+
+        
+    
+    
+            var marker_a2d3fc3785d238599659d705b8f70ada = L.marker(
+                [39.99493084, 116.3066775],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_50f419e6adb4b053bd4d41a820e1d1b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a2d3fc3785d238599659d705b8f70ada.setIcon(icon_50f419e6adb4b053bd4d41a820e1d1b8);
+        
+    
+        var popup_cd1ddb31fbcce8f3d461c9877b6576cd = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7adea898e3398c316331948fbf7fb32c = $(`<div id="html_7adea898e3398c316331948fbf7fb32c" style="width: 100.0%; height: 100.0%;">文创车</div>`)[0];
+                popup_cd1ddb31fbcce8f3d461c9877b6576cd.setContent(html_7adea898e3398c316331948fbf7fb32c);
+            
+        
+
+        marker_a2d3fc3785d238599659d705b8f70ada.bindPopup(popup_cd1ddb31fbcce8f3d461c9877b6576cd)
+        ;
+
+        
+    
+    
+            var marker_26ae87ea8706dddf909631aaa742a871 = L.marker(
+                [39.99040941, 116.3020516],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_b5a5fac738eebc79c72c4fa82edf4780 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_26ae87ea8706dddf909631aaa742a871.setIcon(icon_b5a5fac738eebc79c72c4fa82edf4780);
+        
+    
+        var popup_5a3b094484202ad07ba50f7ee7f05237 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f505e202983239caf0979311472960f6 = $(`<div id="html_f505e202983239caf0979311472960f6" style="width: 100.0%; height: 100.0%;">静园草坪</div>`)[0];
+                popup_5a3b094484202ad07ba50f7ee7f05237.setContent(html_f505e202983239caf0979311472960f6);
+            
+        
+
+        marker_26ae87ea8706dddf909631aaa742a871.bindPopup(popup_5a3b094484202ad07ba50f7ee7f05237)
+        ;
+
+        
+    
+    
+            var marker_bff963058e49acbfad17bb7c90b387b0 = L.marker(
+                [39.9939392, 116.3062493],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_7e4af98ab433df56dcaf9f6d22b122e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_bff963058e49acbfad17bb7c90b387b0.setIcon(icon_7e4af98ab433df56dcaf9f6d22b122e8);
+        
+    
+        var popup_b188b1f5e9d44fb0466d137428c060d2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_26708051c114dd55a8b1558e6bddf580 = $(`<div id="html_26708051c114dd55a8b1558e6bddf580" style="width: 100.0%; height: 100.0%;">五四足球场</div>`)[0];
+                popup_b188b1f5e9d44fb0466d137428c060d2.setContent(html_26708051c114dd55a8b1558e6bddf580);
+            
+        
+
+        marker_bff963058e49acbfad17bb7c90b387b0.bindPopup(popup_b188b1f5e9d44fb0466d137428c060d2)
+        ;
+
+        
+    
+    
+            var marker_cc53619967460dd8ca9e11b07ca144e3 = L.marker(
+                [39.99286955, 116.3005805],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_b3dbc16dc1ffe7afab8e8e9ee73277de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc53619967460dd8ca9e11b07ca144e3.setIcon(icon_b3dbc16dc1ffe7afab8e8e9ee73277de);
+        
+    
+        var popup_77c197af66fe92df9e3da44c46e06324 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_da09980aa16714be923d6075c2f5a6d2 = $(`<div id="html_da09980aa16714be923d6075c2f5a6d2" style="width: 100.0%; height: 100.0%;">太湖石</div>`)[0];
+                popup_77c197af66fe92df9e3da44c46e06324.setContent(html_da09980aa16714be923d6075c2f5a6d2);
+            
+        
+
+        marker_cc53619967460dd8ca9e11b07ca144e3.bindPopup(popup_77c197af66fe92df9e3da44c46e06324)
+        ;
+
+        
+    
+    
+            var marker_b1b4a58e0dcedcc572e462d537b184c2 = L.marker(
+                [39.99158515, 116.2988942],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_c906c0da58b3e3dd3642c490f8a1e576 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1b4a58e0dcedcc572e462d537b184c2.setIcon(icon_c906c0da58b3e3dd3642c490f8a1e576);
+        
+    
+        var popup_cf9e46e36b4fc87fa57821928f773573 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_70cef6b266685108708e6e0281e29ea4 = $(`<div id="html_70cef6b266685108708e6e0281e29ea4" style="width: 100.0%; height: 100.0%;">勺园勺海</div>`)[0];
+                popup_cf9e46e36b4fc87fa57821928f773573.setContent(html_70cef6b266685108708e6e0281e29ea4);
+            
+        
+
+        marker_b1b4a58e0dcedcc572e462d537b184c2.bindPopup(popup_cf9e46e36b4fc87fa57821928f773573)
+        ;
+
+        
+    
+    
+            var marker_bd36bdcd44b880764ecd5b9aa301297d = L.marker(
+                [39.98760896, 116.3052799],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_48c76a36d5fdf32f938b9a54e4b526b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd36bdcd44b880764ecd5b9aa301297d.setIcon(icon_48c76a36d5fdf32f938b9a54e4b526b5);
+        
+    
+        var popup_9b5b760021514207946795bf300f5514 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5633eacf846bd756e7633d1594b80e65 = $(`<div id="html_5633eacf846bd756e7633d1594b80e65" style="width: 100.0%; height: 100.0%;">新太阳（纪念品店）</div>`)[0];
+                popup_9b5b760021514207946795bf300f5514.setContent(html_5633eacf846bd756e7633d1594b80e65);
+            
+        
+
+        marker_bd36bdcd44b880764ecd5b9aa301297d.bindPopup(popup_9b5b760021514207946795bf300f5514)
+        ;
+
+        
+    
+    
+            var marker_bc9434aedcfb1e172022398df96edf6a = L.marker(
+                [39.98642191, 116.3071322],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_39a19f4edf10c2ffcb9a725d88cb4d4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc9434aedcfb1e172022398df96edf6a.setIcon(icon_39a19f4edf10c2ffcb9a725d88cb4d4d);
+        
+    
+        var popup_262e9001a6367fee1a53cd07813051db = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1b4128af3c34e6b41888314d2fc61c0f = $(`<div id="html_1b4128af3c34e6b41888314d2fc61c0f" style="width: 100.0%; height: 100.0%;">五四操场</div>`)[0];
+                popup_262e9001a6367fee1a53cd07813051db.setContent(html_1b4128af3c34e6b41888314d2fc61c0f);
+            
+        
+
+        marker_bc9434aedcfb1e172022398df96edf6a.bindPopup(popup_262e9001a6367fee1a53cd07813051db)
+        ;
+
+        
+    
+    
+            var marker_a0d7e27eee2c349ae6794de811619c8b = L.marker(
+                [39.99440217, 116.3053272],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_88e4f3c9014c9a07e44a50e5b405a76e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a0d7e27eee2c349ae6794de811619c8b.setIcon(icon_88e4f3c9014c9a07e44a50e5b405a76e);
+        
+    
+        var popup_c01a21c0a54a380355d253d9a767a389 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3e58cf123795e7d43dcd5cce0ccccb01 = $(`<div id="html_3e58cf123795e7d43dcd5cce0ccccb01" style="width: 100.0%; height: 100.0%;">飞鹰社岩壁</div>`)[0];
+                popup_c01a21c0a54a380355d253d9a767a389.setContent(html_3e58cf123795e7d43dcd5cce0ccccb01);
+            
+        
+
+        marker_a0d7e27eee2c349ae6794de811619c8b.bindPopup(popup_c01a21c0a54a380355d253d9a767a389)
+        ;
+
+        
+    
+    
+            var marker_03e60a55d4a216a36dde153de7b9885f = L.marker(
+                [39.99755834, 116.3052291],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_85fee3a227bc38c43d728c9bb3b90ccc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_03e60a55d4a216a36dde153de7b9885f.setIcon(icon_85fee3a227bc38c43d728c9bb3b90ccc);
+        
+    
+        var popup_b211385a6d87aff46596b41f1afe898b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d4247d1a0910c90d5bf861be24f96ba2 = $(`<div id="html_d4247d1a0910c90d5bf861be24f96ba2" style="width: 100.0%; height: 100.0%;">象棋盘</div>`)[0];
+                popup_b211385a6d87aff46596b41f1afe898b.setContent(html_d4247d1a0910c90d5bf861be24f96ba2);
+            
+        
+
+        marker_03e60a55d4a216a36dde153de7b9885f.bindPopup(popup_b211385a6d87aff46596b41f1afe898b)
+        ;
+
+        
+    
+    
+            var marker_681c7ef7ca557841fc2cbd2eefafc769 = L.marker(
+                [39.99370973, 116.3053193],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_d74eab902249a2a57d25f2d218910499 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_681c7ef7ca557841fc2cbd2eefafc769.setIcon(icon_d74eab902249a2a57d25f2d218910499);
+        
+    
+        var popup_cf47d089921b77debc59537a108bc3ec = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_464b78679116df4b18c0f6121ece369b = $(`<div id="html_464b78679116df4b18c0f6121ece369b" style="width: 100.0%; height: 100.0%;">一体</div>`)[0];
+                popup_cf47d089921b77debc59537a108bc3ec.setContent(html_464b78679116df4b18c0f6121ece369b);
+            
+        
+
+        marker_681c7ef7ca557841fc2cbd2eefafc769.bindPopup(popup_cf47d089921b77debc59537a108bc3ec)
+        ;
+
+        
+    
+    
+            var marker_f568de4b97e2f52142be4826d4e10d40 = L.marker(
+                [39.99228636, 116.3009553],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_2f3b828b634734e5f8602efdcb92684c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f568de4b97e2f52142be4826d4e10d40.setIcon(icon_2f3b828b634734e5f8602efdcb92684c);
+        
+    
+        var popup_b4cfb853861631658f9dbb667c21c9dd = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e59ac52fe477834e4c1ab6c1adb82cff = $(`<div id="html_e59ac52fe477834e4c1ab6c1adb82cff" style="width: 100.0%; height: 100.0%;">北京城乡生态梯度研究平台</div>`)[0];
+                popup_b4cfb853861631658f9dbb667c21c9dd.setContent(html_e59ac52fe477834e4c1ab6c1adb82cff);
+            
+        
+
+        marker_f568de4b97e2f52142be4826d4e10d40.bindPopup(popup_b4cfb853861631658f9dbb667c21c9dd)
+        ;
+
+        
+    
+    
+            var marker_cfd576f2a1df6b510b4dd073f6a90f0a = L.marker(
+                [39.9905838, 116.3050668],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_fe08a1e2c5fbc965f918256384cfb044 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cfd576f2a1df6b510b4dd073f6a90f0a.setIcon(icon_fe08a1e2c5fbc965f918256384cfb044);
+        
+    
+        var popup_87f0ca4b5a7ff5ac10c0f81f1ba52980 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_ce575b9f742b469491d5db17192c712c = $(`<div id="html_ce575b9f742b469491d5db17192c712c" style="width: 100.0%; height: 100.0%;">图书馆</div>`)[0];
+                popup_87f0ca4b5a7ff5ac10c0f81f1ba52980.setContent(html_ce575b9f742b469491d5db17192c712c);
+            
+        
+
+        marker_cfd576f2a1df6b510b4dd073f6a90f0a.bindPopup(popup_87f0ca4b5a7ff5ac10c0f81f1ba52980)
+        ;
+
+        
+    
+    
+            var marker_bbcf26c8dfc6ddd55665c18896b530a2 = L.marker(
+                [39.99229238, 116.3062053],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_f12fba6043121ceb08c2265c66eb5af6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_bbcf26c8dfc6ddd55665c18896b530a2.setIcon(icon_f12fba6043121ceb08c2265c66eb5af6);
+        
+    
+        var popup_63e9a59d02385c6eacb73ab597b85b0a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_875892f6d46dc4746f1b269588464a1a = $(`<div id="html_875892f6d46dc4746f1b269588464a1a" style="width: 100.0%; height: 100.0%;">方楼</div>`)[0];
+                popup_63e9a59d02385c6eacb73ab597b85b0a.setContent(html_875892f6d46dc4746f1b269588464a1a);
+            
+        
+
+        marker_bbcf26c8dfc6ddd55665c18896b530a2.bindPopup(popup_63e9a59d02385c6eacb73ab597b85b0a)
+        ;
+
+        
+    
+    
+            var marker_453af48bfdf7a2849f1f6b1a6fcd8def = L.marker(
+                [39.99452889, 116.3073787],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_fddcc31e4226f08f55e3a6f141ed32d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_453af48bfdf7a2849f1f6b1a6fcd8def.setIcon(icon_fddcc31e4226f08f55e3a6f141ed32d3);
+        
+    
+        var popup_25b1ed93807df3d3a9d290be0425a3c5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2263dccc6d9c71dbe67d9093fd888c0b = $(`<div id="html_2263dccc6d9c71dbe67d9093fd888c0b" style="width: 100.0%; height: 100.0%;">光华新楼</div>`)[0];
+                popup_25b1ed93807df3d3a9d290be0425a3c5.setContent(html_2263dccc6d9c71dbe67d9093fd888c0b);
+            
+        
+
+        marker_453af48bfdf7a2849f1f6b1a6fcd8def.bindPopup(popup_25b1ed93807df3d3a9d290be0425a3c5)
+        ;
+
+        
+    
+    
+            var marker_5a1e694e9301c05f11cc394a351f1eb3 = L.marker(
+                [39.98757647, 116.301613],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_bffe3de432c76404198487bec2fd7944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a1e694e9301c05f11cc394a351f1eb3.setIcon(icon_bffe3de432c76404198487bec2fd7944);
+        
+    
+        var popup_8573e944420b03dd20252e162ec5a4e7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_dafc9cf332becc49a4980bbb966ec466 = $(`<div id="html_dafc9cf332becc49a4980bbb966ec466" style="width: 100.0%; height: 100.0%;">喷泉</div>`)[0];
+                popup_8573e944420b03dd20252e162ec5a4e7.setContent(html_dafc9cf332becc49a4980bbb966ec466);
+            
+        
+
+        marker_5a1e694e9301c05f11cc394a351f1eb3.bindPopup(popup_8573e944420b03dd20252e162ec5a4e7)
+        ;
+
+        
+    
+    
+            var marker_eb24e04bc3a67e5ea26a224817ad231f = L.marker(
+                [39.98917067, 116.3064225],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_3d20b512336e62b67d2f87801a247614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb24e04bc3a67e5ea26a224817ad231f.setIcon(icon_3d20b512336e62b67d2f87801a247614);
+        
+    
+        var popup_885899b07bf898f7ec01943445c8633f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4e2271bddc9faacca34e6e2b97afc68b = $(`<div id="html_4e2271bddc9faacca34e6e2b97afc68b" style="width: 100.0%; height: 100.0%;">光华老楼</div>`)[0];
+                popup_885899b07bf898f7ec01943445c8633f.setContent(html_4e2271bddc9faacca34e6e2b97afc68b);
+            
+        
+
+        marker_eb24e04bc3a67e5ea26a224817ad231f.bindPopup(popup_885899b07bf898f7ec01943445c8633f)
+        ;
+
+        
+    
+    
+            var marker_711ee0c19e8532c8542d30c5ca69d05d = L.marker(
+                [39.98859116, 116.3064334],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_dceda6655c7f7ae8c01427202192fddd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_711ee0c19e8532c8542d30c5ca69d05d.setIcon(icon_dceda6655c7f7ae8c01427202192fddd);
+        
+    
+        var popup_282e4f0d416151051aa33a7764383719 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f7329491da8e88d688ccdf8c3a055279 = $(`<div id="html_f7329491da8e88d688ccdf8c3a055279" style="width: 100.0%; height: 100.0%;">智华楼（老电教楼）</div>`)[0];
+                popup_282e4f0d416151051aa33a7764383719.setContent(html_f7329491da8e88d688ccdf8c3a055279);
+            
+        
+
+        marker_711ee0c19e8532c8542d30c5ca69d05d.bindPopup(popup_282e4f0d416151051aa33a7764383719)
+        ;
+
+        
+    
+    
+            var marker_3b4c5b58af9c4f306a6dbc82d8123cc6 = L.marker(
+                [39.99493585, 116.3056269],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_eea81d8259ba1bbd95a6a0c09916caac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3b4c5b58af9c4f306a6dbc82d8123cc6.setIcon(icon_eea81d8259ba1bbd95a6a0c09916caac);
+        
+    
+        var popup_405f8bbd1e112c3e650a02be759deb76 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_715e7a0c7cdd1dca1711f6744484176d = $(`<div id="html_715e7a0c7cdd1dca1711f6744484176d" style="width: 100.0%; height: 100.0%;">李兆基人文学院</div>`)[0];
+                popup_405f8bbd1e112c3e650a02be759deb76.setContent(html_715e7a0c7cdd1dca1711f6744484176d);
+            
+        
+
+        marker_3b4c5b58af9c4f306a6dbc82d8123cc6.bindPopup(popup_405f8bbd1e112c3e650a02be759deb76)
+        ;
+
+        
+    
+    
+            var marker_cbd66e3a135df6db7791b95e02caebe2 = L.marker(
+                [39.9920744, 116.3045982],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_7492baa39facad0db4bc91201ec2e4f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cbd66e3a135df6db7791b95e02caebe2.setIcon(icon_7492baa39facad0db4bc91201ec2e4f5);
+        
+    
+        var popup_53666b3882c7bf868788203ad6379fdd = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_553ae4544c8898c94904c55baf6675cf = $(`<div id="html_553ae4544c8898c94904c55baf6675cf" style="width: 100.0%; height: 100.0%;">陈守仁国际研究中心（落成碑）</div>`)[0];
+                popup_53666b3882c7bf868788203ad6379fdd.setContent(html_553ae4544c8898c94904c55baf6675cf);
+            
+        
+
+        marker_cbd66e3a135df6db7791b95e02caebe2.bindPopup(popup_53666b3882c7bf868788203ad6379fdd)
+        ;
+
+        
+    
+    
+            var marker_f99d738101d13ca99ebb61c014e6094a = L.marker(
+                [39.99177313, 116.3047307],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a61e7df64569b45630f554979a554cad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f99d738101d13ca99ebb61c014e6094a.setIcon(icon_a61e7df64569b45630f554979a554cad);
+        
+    
+        var popup_db6284d9babce0570040e8bf2c02cb80 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d62b3054dd7a2d3672c623200ac79bfe = $(`<div id="html_d62b3054dd7a2d3672c623200ac79bfe" style="width: 100.0%; height: 100.0%;">南极石</div>`)[0];
+                popup_db6284d9babce0570040e8bf2c02cb80.setContent(html_d62b3054dd7a2d3672c623200ac79bfe);
+            
+        
+
+        marker_f99d738101d13ca99ebb61c014e6094a.bindPopup(popup_db6284d9babce0570040e8bf2c02cb80)
+        ;
+
+        
+    
+    
+            var marker_57fc4436540ccfa770b5fe3f1b074eff = L.marker(
+                [39.99340945, 116.3071567],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_fbeeb56099c7bbf93232fe00c5744b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_57fc4436540ccfa770b5fe3f1b074eff.setIcon(icon_fbeeb56099c7bbf93232fe00c5744b5d);
+        
+    
+        var popup_adbef5892248c3e3e4b61c88e08a9308 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3327c5336cc56f1938e11fcd4211b6e5 = $(`<div id="html_3327c5336cc56f1938e11fcd4211b6e5" style="width: 100.0%; height: 100.0%;">法学院獬豸雕像</div>`)[0];
+                popup_adbef5892248c3e3e4b61c88e08a9308.setContent(html_3327c5336cc56f1938e11fcd4211b6e5);
+            
+        
+
+        marker_57fc4436540ccfa770b5fe3f1b074eff.bindPopup(popup_adbef5892248c3e3e4b61c88e08a9308)
+        ;
+
+        
+    
+    
+            var marker_13f32b1c74ea10aa57e5983c29e4f921 = L.marker(
+                [39.99361394, 116.3071379],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_18703cee2f33c5351c4ff149a1105b9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_13f32b1c74ea10aa57e5983c29e4f921.setIcon(icon_18703cee2f33c5351c4ff149a1105b9e);
+        
+    
+        var popup_9804a89d55e41834514e239cf3007e37 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_69d2224906f29db854c0ac6ea7d3bf03 = $(`<div id="html_69d2224906f29db854c0ac6ea7d3bf03" style="width: 100.0%; height: 100.0%;">光华舞女雕像</div>`)[0];
+                popup_9804a89d55e41834514e239cf3007e37.setContent(html_69d2224906f29db854c0ac6ea7d3bf03);
+            
+        
+
+        marker_13f32b1c74ea10aa57e5983c29e4f921.bindPopup(popup_9804a89d55e41834514e239cf3007e37)
+        ;
+
+        
+    
+    
+            var marker_494dc5afb0b4159c965b1a12b1cea314 = L.marker(
+                [39.99349079, 116.3030951],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_4ac1730d692b6b6fd52eb8a7dcb3ef7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_494dc5afb0b4159c965b1a12b1cea314.setIcon(icon_4ac1730d692b6b6fd52eb8a7dcb3ef7c);
+        
+    
+        var popup_7dd8463c76064a1e9a793901fd08b383 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_bccc0ebd81d3bccf5b0bb6ca97d1d34b = $(`<div id="html_bccc0ebd81d3bccf5b0bb6ca97d1d34b" style="width: 100.0%; height: 100.0%;">北大百年纪念雕塑</div>`)[0];
+                popup_7dd8463c76064a1e9a793901fd08b383.setContent(html_bccc0ebd81d3bccf5b0bb6ca97d1d34b);
+            
+        
+
+        marker_494dc5afb0b4159c965b1a12b1cea314.bindPopup(popup_7dd8463c76064a1e9a793901fd08b383)
+        ;
+
+        
+    
+    
+            var marker_0d52206a3bf7c60f554e5abb2987eaa3 = L.marker(
+                [39.99332431, 116.3031178],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_2d1d2b1f7bf6184874822fa452143863 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0d52206a3bf7c60f554e5abb2987eaa3.setIcon(icon_2d1d2b1f7bf6184874822fa452143863);
+        
+    
+        var popup_8d2b23cb4774bb61485ce3a8da81f434 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fc739a5aacccdda1516c223fdb2f346e = $(`<div id="html_fc739a5aacccdda1516c223fdb2f346e" style="width: 100.0%; height: 100.0%;">北京大学星雕塑</div>`)[0];
+                popup_8d2b23cb4774bb61485ce3a8da81f434.setContent(html_fc739a5aacccdda1516c223fdb2f346e);
+            
+        
+
+        marker_0d52206a3bf7c60f554e5abb2987eaa3.bindPopup(popup_8d2b23cb4774bb61485ce3a8da81f434)
+        ;
+
+        
+    
+    
+            var marker_a85856c52505ec6514b81f24b887905f = L.marker(
+                [39.99453111, 116.2992365],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_1c0d718621202f6b52a018efbe107ac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a85856c52505ec6514b81f24b887905f.setIcon(icon_1c0d718621202f6b52a018efbe107ac5);
+        
+    
+        var popup_dc78a630e7df08cbdd5ba69bf1eebb05 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fd76dec066dcc039302edf56e21eea09 = $(`<div id="html_fd76dec066dcc039302edf56e21eea09" style="width: 100.0%; height: 100.0%;">赛克勒雕塑园-智圣雕塑</div>`)[0];
+                popup_dc78a630e7df08cbdd5ba69bf1eebb05.setContent(html_fd76dec066dcc039302edf56e21eea09);
+            
+        
+
+        marker_a85856c52505ec6514b81f24b887905f.bindPopup(popup_dc78a630e7df08cbdd5ba69bf1eebb05)
+        ;
+
+        
+    
+    
+            var marker_ebb031c866c15cd6d2610e2b4b00e851 = L.marker(
+                [39.99374957, 116.3082406],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_413306c5001ba6b4cfeb864aaefd996f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_ebb031c866c15cd6d2610e2b4b00e851.setIcon(icon_413306c5001ba6b4cfeb864aaefd996f);
+        
+    
+        var popup_f77ee52be99b65024e24528b5dad2a86 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_bea20e4a41f3b1cad66e7b0301faff01 = $(`<div id="html_bea20e4a41f3b1cad66e7b0301faff01" style="width: 100.0%; height: 100.0%;">樱树林</div>`)[0];
+                popup_f77ee52be99b65024e24528b5dad2a86.setContent(html_bea20e4a41f3b1cad66e7b0301faff01);
+            
+        
+
+        marker_ebb031c866c15cd6d2610e2b4b00e851.bindPopup(popup_f77ee52be99b65024e24528b5dad2a86)
+        ;
+
+        
+    
+    
+            var marker_22e790c5956e9ff2d970a6d96e0a7ac6 = L.marker(
+                [39.99449787, 116.2988471],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_ff11133e5c6f35488baf0dbb4678c111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22e790c5956e9ff2d970a6d96e0a7ac6.setIcon(icon_ff11133e5c6f35488baf0dbb4678c111);
+        
+    
+        var popup_8dec5046af7f957db577fb285b5e7711 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8b3d44ea046c6e9609ab4429cab2e64e = $(`<div id="html_8b3d44ea046c6e9609ab4429cab2e64e" style="width: 100.0%; height: 100.0%;">洛阳牡丹</div>`)[0];
+                popup_8dec5046af7f957db577fb285b5e7711.setContent(html_8b3d44ea046c6e9609ab4429cab2e64e);
+            
+        
+
+        marker_22e790c5956e9ff2d970a6d96e0a7ac6.bindPopup(popup_8dec5046af7f957db577fb285b5e7711)
+        ;
+
+        
+    
+    
+            tile_layer_fcfc6107db253c9e5ac5502fe2ef6236.addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var marker_f2bc68c7cc358e539955f84206a8287a = L.marker(
+                [39.99063887, 116.3092085],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_b9e9cfe7454c311713e2daa2625a39d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f2bc68c7cc358e539955f84206a8287a.setIcon(icon_b9e9cfe7454c311713e2daa2625a39d4);
+        
+    
+        var popup_430d1f676d1b58d253655f156d41cafd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833127eb619025223e0ace7fc7661d41 = $(`<div id="html_833127eb619025223e0ace7fc7661d41" style="width: 100.0%; height: 100.0%;">东门</div>`)[0];
+                popup_430d1f676d1b58d253655f156d41cafd.setContent(html_833127eb619025223e0ace7fc7661d41);
+            
+        
+
+        marker_f2bc68c7cc358e539955f84206a8287a.bindPopup(popup_430d1f676d1b58d253655f156d41cafd)
+        ;
+
+        
+    
+    
+            var marker_f138b9d24e199cdf8b55cd0af8c9ee3b = L.marker(
+                [39.99179585, 116.3091495],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a98a81cbfba289dee79692cb1087c8b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f138b9d24e199cdf8b55cd0af8c9ee3b.setIcon(icon_a98a81cbfba289dee79692cb1087c8b2);
+        
+    
+        var popup_652924c8390f119212ccbf1de4e2580a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_925f4cda7e1bf2f5e8ebd03934df84dd = $(`<div id="html_925f4cda7e1bf2f5e8ebd03934df84dd" style="width: 100.0%; height: 100.0%;">东侧门</div>`)[0];
+                popup_652924c8390f119212ccbf1de4e2580a.setContent(html_925f4cda7e1bf2f5e8ebd03934df84dd);
+            
+        
+
+        marker_f138b9d24e199cdf8b55cd0af8c9ee3b.bindPopup(popup_652924c8390f119212ccbf1de4e2580a)
+        ;
+
+        
+    
+    
+            var marker_277cc05e387799c7065b87415703c871 = L.marker(
+                [39.98884455, 116.3094282],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_f7563ef7eb636be17ce8852b962a22db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_277cc05e387799c7065b87415703c871.setIcon(icon_f7563ef7eb636be17ce8852b962a22db);
+        
+    
+        var popup_2d81b84b90ec14bfe9798679bfd7bc9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d351e45de3550fed9dffefa9f0becad = $(`<div id="html_5d351e45de3550fed9dffefa9f0becad" style="width: 100.0%; height: 100.0%;">东南门</div>`)[0];
+                popup_2d81b84b90ec14bfe9798679bfd7bc9a.setContent(html_5d351e45de3550fed9dffefa9f0becad);
+            
+        
+
+        marker_277cc05e387799c7065b87415703c871.bindPopup(popup_2d81b84b90ec14bfe9798679bfd7bc9a)
+        ;
+
+        
+    
+    
+            var marker_1a93e0972e914dba391b430a7079ba2a = L.marker(
+                [39.99509276, 116.3074576],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_840e0928c5c626874a51a018c1f617de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_1a93e0972e914dba391b430a7079ba2a.setIcon(icon_840e0928c5c626874a51a018c1f617de);
+        
+    
+        var popup_a412562f7fe20aca61afb218d4b1f1e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_181de74568f6cf69a9574df649a2963c = $(`<div id="html_181de74568f6cf69a9574df649a2963c" style="width: 100.0%; height: 100.0%;">小东门</div>`)[0];
+                popup_a412562f7fe20aca61afb218d4b1f1e2.setContent(html_181de74568f6cf69a9574df649a2963c);
+            
+        
+
+        marker_1a93e0972e914dba391b430a7079ba2a.bindPopup(popup_a412562f7fe20aca61afb218d4b1f1e2)
+        ;
+
+        
+    
+    
+            var marker_f8bca96f4cc333d61048175b3ed2963d = L.marker(
+                [39.98535432, 116.3054595],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_7d91ded7dd5274a433d34e6789ab4c8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f8bca96f4cc333d61048175b3ed2963d.setIcon(icon_7d91ded7dd5274a433d34e6789ab4c8a);
+        
+    
+        var popup_b00562531dbf5f3c13126e6ac01f831d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efe7a1786e292bbd913072ee3d892739 = $(`<div id="html_efe7a1786e292bbd913072ee3d892739" style="width: 100.0%; height: 100.0%;">南门</div>`)[0];
+                popup_b00562531dbf5f3c13126e6ac01f831d.setContent(html_efe7a1786e292bbd913072ee3d892739);
+            
+        
+
+        marker_f8bca96f4cc333d61048175b3ed2963d.bindPopup(popup_b00562531dbf5f3c13126e6ac01f831d)
+        ;
+
+        
+    
+    
+            var marker_2beda3730217d23a5c2b6056d3cc76af = L.marker(
+                [39.98639843, 116.2995735],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_3ef88875772e0cc576f2f2c6dc43241f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_2beda3730217d23a5c2b6056d3cc76af.setIcon(icon_3ef88875772e0cc576f2f2c6dc43241f);
+        
+    
+        var popup_134bc9de985d2280636bb51dd570e0ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25183e7dbc0db2266d7a30e17bbea956 = $(`<div id="html_25183e7dbc0db2266d7a30e17bbea956" style="width: 100.0%; height: 100.0%;">西南门</div>`)[0];
+                popup_134bc9de985d2280636bb51dd570e0ca.setContent(html_25183e7dbc0db2266d7a30e17bbea956);
+            
+        
+
+        marker_2beda3730217d23a5c2b6056d3cc76af.bindPopup(popup_134bc9de985d2280636bb51dd570e0ca)
+        ;
+
+        
+    
+    
+            var marker_f0d0b52f4c47ab32622ad49bc933611e = L.marker(
+                [39.99331176, 116.2985501],
+                {}
+            ).addTo(map_915d7c7bd4183d850316093d3825b344);
+        
+    
+            var icon_a47a804c1b7ee7c32409b2eb681ba2a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f0d0b52f4c47ab32622ad49bc933611e.setIcon(icon_a47a804c1b7ee7c32409b2eb681ba2a7);
+        
+    
+        var popup_d2d21b3866130abbf6d1e3d0dc72b4b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_402df0a4eff408519e42b7eb31ea496d = $(`<div id="html_402df0a4eff408519e42b7eb31ea496d" style="width: 100.0%; height: 100.0%;">西门</div>`)[0];
+                popup_d2d21b3866130abbf6d1e3d0dc72b4b6.setContent(html_402df0a4eff408519e42b7eb31ea496d);
+            
+        
+
+        marker_f0d0b52f4c47ab32622ad49bc933611e.bindPopup(popup_d2d21b3866130abbf6d1e3d0dc72b4b6)
+        ;
+
+        
+    
+</script>
+</html>
