@@ -22,6 +22,10 @@
 - Second Step: Releasing a test version on an anonymous campus forum for evaluation by Peking University students and faculty. Collecting opinions and feedback, and encourage them to recommend the app to friends and family visiting Peking University. The internal evaluation lasts for two weeks, during which five surveys are distributed, collecting about 300 responses.
 - → Third Step: Launching the app on public platforms, making it available for general tourists to try out, and provide feedback channels for continuous improvement.
 
+## v2 9.10-9.15 update
+- Add welcome screen and user system
+- Add options for registration, login, and guest mode to the welcome screen
+- Add like, comments, and rating features
 
 ## Drawbacks and Update Goals
 - Attempt to implement multiple language versions.
